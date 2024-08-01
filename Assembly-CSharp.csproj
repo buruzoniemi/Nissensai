@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5C5617F1-FBBA-1D72-832B-0250B3B440A4}</ProjectGuid>
+    <ProjectGuid>{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,6 +68,7 @@
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\Script\PlayerFollow.cs" />
+    <Compile Include="Assets\Script\MapCreation.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
