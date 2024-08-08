@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\programming\\assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gacha.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\Assets\\Script\\Gacha.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Gacha.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\Assets\\Script\\Gacha.cs",
+              "RelativeToolTip": "Assets\\Script\\Gacha.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:40:27.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -66,6 +66,7 @@
     <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\Script\Gacha.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\Script\PlayerFollow.cs" />
     <Compile Include="Assets\Script\MapCreation.cs" />
