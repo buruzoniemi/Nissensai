@@ -357,6 +357,7 @@
 "Assets/Script/Move.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/PlayerFollow.cs"
+"Assets/Script/PrizeChoice.cs"
 "Assets/UnityChan/Scripts/AutoBlink.cs"
 "Assets/UnityChan/Scripts/CameraController.cs"
 "Assets/UnityChan/Scripts/FaceUpdate.cs"

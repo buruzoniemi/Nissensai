@@ -5,6 +5,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\programming\\assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Firmed\\1001ShootingGame\\Assets\\Scripts\\SGM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\programming\\assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +21,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SGM.cs",
+              "DocumentMoniker": "E:\\Firmed\\1001ShootingGame\\Assets\\Scripts\\SGM.cs",
+              "ToolTip": "E:\\Firmed\\1001ShootingGame\\Assets\\Scripts\\SGM.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T13:57:41.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrizeChoice.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\Assets\\Script\\PrizeChoice.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrizeChoice.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\Assets\\Script\\PrizeChoice.cs",
+              "RelativeToolTip": "Assets\\Script\\PrizeChoice.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T13:42:24.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +55,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Gacha.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\\u65E5\u672C\u96FB\u5B50\u5C02\u9580\u5B66\u6821\\\u65E5\u5C02\u796D\\Programming\\Assets\\Script\\Gacha.cs",
               "RelativeToolTip": "Assets\\Script\\Gacha.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwBUAAAASAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAA4wFMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T12:40:27.45Z",
               "EditorCaption": ""

@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gacha : MonoBehaviour
 {
-    List<string> first = new List<string>();
-    List<string> second = new List<string>();
-    List<string> third = new List<string>();
 
+    public int rate;
+    public int[] prob;
+    public Text textbox;
+    List<string>[] prize = new List<string>[4] ;
     /*
      * 現在の設定：
      * 確率：5%,20%,35%
@@ -19,13 +21,17 @@ public class Gacha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < prize.Length; i++)
+        {
+            prize[i] = new List<string>();
+        }
         //ここで景品の名前を代入する
         string[] a = { "胡桃", "メダル","学校" };
-        first.AddRange(a);
+        prize[1].AddRange(a);
         string[] b = { "胡桃", "メダル", "学校" };
-        second.AddRange(b);
+        prize[2].AddRange(b);
         string[] c = { "胡桃", "メダル", "学校" };
-        third.AddRange(c); 
+        prize[3].AddRange(c); 
     }
 
     // Update is called once per frame
@@ -34,31 +40,39 @@ public class Gacha : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
         {
             Debug.Log(RunGacha());
-            Debug.Log("1st:" + first.Count + " 2nd:" + second.Count + " 3rd:" + third.Count);　//等賞それぞれの残る個数
+            Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count);　//等賞それぞれの残る個数
         }
+        if (Input.GetKeyDown(KeyCode.UpArrow)) prob[rate]++; //今選んだ等賞の確率を1％上げます
+        if (Input.GetKeyDown(KeyCode.DownArrow)) prob[rate]--; //今選んだ等賞の確率を1％下げます
+        if (rate != 0)
+        {
+            textbox.text = rate.ToString() + " 等賞の確率は：" + prob[rate].ToString() + "%\nその賞は残り " + prize[rate].Count.ToString()+" 個";
+        }
+        else textbox.text = "ボダンを押してください";
     }
 
     string RunGacha()
     {
         int chance = Random.Range(0, 100);
+        int boundary = 0;
         string result;
-        if (chance < 5 && first.Count > 0) //一等賞：5パーセント
+        if (chance < (boundary += prob[1]) && prize[1].Count > 0) //一等賞：5パーセント
         {
-            int prize = Random.Range(0,first.Count);
-            result = "一等賞 " + first[prize];
-            first.RemoveAt(prize); //引いたら抜きます
+            int present = Random.Range(0, prize[1].Count);
+            result = "一等賞 " + prize[1][present];
+            prize[1].RemoveAt(present); //引いたら抜きます
         }
-        else if (chance < 25 && second.Count > 0) //二等賞：20パーセント
+        else if (chance < (boundary += prob[2]) && prize[2].Count > 0) //二等賞：15パーセント
         {
-            int prize = Random.Range(0,second.Count);
-            result = "二等賞 " + second[prize];
-            second.RemoveAt(prize);//引いたら抜きます
+            int present = Random.Range(0, prize[2].Count);
+            result = "二等賞 " + prize[2][present];
+            prize[2].RemoveAt(present);//引いたら抜きます
         }
-        else if (chance < 60 &&  third.Count > 0) //三等賞：35パーセント
+        else if (chance < (boundary += prob[3]) && prize[3].Count > 0) //三等賞：30パーセント
         {
-            int prize = Random.Range (0,third.Count);
-            result = "三等賞 " + third[prize];
-            third.RemoveAt(prize);//引いたら抜きます
+            int present = Random.Range (0, prize[3].Count);
+            result = "三等賞 " + prize[3][present];
+            prize[3].RemoveAt(present);//引いたら抜きます
         }
         else
         {
