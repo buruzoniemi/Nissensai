@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerFollow : MonoBehaviour
 {
-    [SerializeField]private Transform Player;          // 注視対象プレイヤー
+    [SerializeField] private Transform Player;          // 注視対象プレイヤー
 
-    private float Distance = 15.0f;    // 注視対象プレイヤーからカメラを離す距離
+    private float Distance = 15.0f;     // 注視対象プレイヤーからカメラを離す距離
+    private float TurnSpeed = 10.0f;    //回転速度
+
+    //合成回転を行うためQuaternionで制御する
     private Quaternion Vrotation;      // カメラの垂直回転(見下ろし回転)
-    private Quaternion Hrotation;      // カメラの水平回転
+    public Quaternion Hrotation;      // カメラの水平回転
 
     void Start()
     {
@@ -24,8 +28,16 @@ public class PlayerFollow : MonoBehaviour
 
     void Update()
     {
-        //カメラの位置(transform.position)の更新
-        //playerの位置から距離distanceだけ手前に引いた位置を設定します
-        transform.position = Player.position - transform.rotation * Vector3.forward * Distance;
+        // 水平回転の更新
+        if (Input.GetMouseButton(0))
+            Hrotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * TurnSpeed, 0);
+
+        // カメラの回転(transform.rotation)の更新
+        // 方法1 : 垂直回転してから水平回転する合成回転とします
+        transform.rotation = Hrotation * Vrotation;
+
+        // カメラの位置(transform.position)の更新
+        // player位置から距離distanceだけ手前に引いた位置を設定します
+        transform.position = Player.position + new Vector3(0, 3, 0) - transform.rotation * Vector3.forward * Distance;
     }
 }

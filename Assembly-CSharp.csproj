@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\Script\Move.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Script\PrizeChoice.cs" />
@@ -72,9 +71,11 @@
     <Compile Include="Assets\Script\PlayerFollow.cs" />
     <Compile Include="Assets\Script\MapCreation.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\Script\RigidbodyAccelerator.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\Script\Acceleration.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
