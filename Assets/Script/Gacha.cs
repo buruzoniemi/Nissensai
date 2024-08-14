@@ -9,7 +9,7 @@ public class Gacha : MonoBehaviour
     public int rate;
     public int[] prob;
     public Text textbox;
-    List<string>[] prize = new List<string>[4] ;
+    public List<string>[] prize = new List<string>[4] ;
     /*
      * 現在の設定：
      * 確率：5%,20%,35%
@@ -79,5 +79,11 @@ public class Gacha : MonoBehaviour
             result = "ポケットティッシュ";
         }
         return result;
+    }
+
+    public void LoadPrize(int rank, string present)
+    {
+        string[] temp = { present };
+        prize[rank].AddRange(temp);
     }
 }
