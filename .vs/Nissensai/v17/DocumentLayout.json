@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Contact.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
+              "RelativeToolTip": "Assets\\Script\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T06:02:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerFollow.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerFollow.cs",
@@ -30,18 +47,17 @@
               "RelativeToolTip": "Assets\\Script\\PlayerFollow.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T04:33:37.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T04:33:37.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwHAAAABgAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:18:28.663Z",
               "EditorCaption": ""

@@ -7188,7 +7188,7 @@ GameObject:
   - component: {fileID: 4343382699240799296}
   m_Layer: 0
   m_Name: unitychan 1
-  m_TagString: Untagged
+  m_TagString: ' contact'
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
