@@ -68,9 +68,11 @@
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Script\Gacha.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Script\RateChange.cs" />
     <Compile Include="Assets\Script\PlayerFollow.cs" />
     <Compile Include="Assets\Script\MapCreation.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\Script\PopupManager.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />

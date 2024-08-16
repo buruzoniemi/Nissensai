@@ -25,5 +25,13 @@ public class PrizeChoice : MonoBehaviour
         if (name == "first") mc.rate = 1;
         if (name == "second") mc.rate = 2;
         if (name == "third") mc.rate = 3;
+        if (name == "Close")
+        {
+            PopupManager pm = GameObject.Find("Canvas").GetComponent<PopupManager>();   
+            if (pm != null)
+            {
+                pm.HidePopup();
+            }
+        }
     }
 }

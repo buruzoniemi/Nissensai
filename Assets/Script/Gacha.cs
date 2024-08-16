@@ -10,6 +10,8 @@ public class Gacha : MonoBehaviour
     public int[] prob;
     public Text textbox;
     public List<string>[] prize = new List<string>[4] ;
+    GameObject canvas;
+    PopupManager pm;
     /*
      * 現在の設定：
      * 確率：5%,20%,35%
@@ -32,23 +34,35 @@ public class Gacha : MonoBehaviour
         prize[2].AddRange(b);
         string[] c = { "胡桃", "メダル", "学校" };
         prize[3].AddRange(c); 
+
+        canvas = GameObject.Find("Canvas");
+        pm = canvas.GetComponent<PopupManager>();
+        canvas.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
         {
             Debug.Log(RunGacha());
-            Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count);　//等賞それぞれの残る個数
+            Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); //等賞それぞれの残る個数
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow)) prob[rate]++; //今選んだ等賞の確率を1％上げます
-        if (Input.GetKeyDown(KeyCode.DownArrow)) prob[rate]--; //今選んだ等賞の確率を1％下げます
-        if (rate != 0)
+        if (Input.GetKey(KeyCode.LeftControl))
         {
-            textbox.text = rate.ToString() + " 等賞の確率は：" + prob[rate].ToString() + "%\nその賞は残り " + prize[rate].Count.ToString()+" 個";
+            canvas.SetActive(true);
+            if (rate != 0)
+            {
+                textbox.text = rate.ToString() + " 等賞の確率は：" + prob[rate].ToString() + "%\nその賞は残り " + prize[rate].Count.ToString() + " 個";
+            }
+            else textbox.text = "";
         }
-        else textbox.text = "ボダンを押してください";
+        else
+        {
+            canvas.SetActive(false);
+        }
+        
     }
 
     string RunGacha()

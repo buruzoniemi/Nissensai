@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class Save : MonoBehaviour
 {
+    PopupManager pm;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        pm = GameObject.Find("Canvas").GetComponent<PopupManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S)) SaveData(); //保存はSキー
-        if (Input.GetKeyDown(KeyCode.L)) LoadData(); //読込はLキー
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            if (Input.GetKeyDown(KeyCode.S)) SaveData(); //保存はSキー
+            if (Input.GetKeyDown(KeyCode.L)) LoadData(); //読込はLキー
+        }
+        
+
     }
 
     void SaveData()
@@ -32,7 +39,7 @@ public class Save : MonoBehaviour
                 PlayerPrefs.SetInt("prob" + i.ToString(), gacha.prob[i]);
             }
             PlayerPrefs.Save();
-            Debug.Log("保存しました");
+            pm.ShowPopup("保存しました。");
         }
     }
 
@@ -50,7 +57,7 @@ public class Save : MonoBehaviour
                 }
                 gacha.prob[i] = PlayerPrefs.GetInt("prob" + i.ToString());
             }
-            Debug.Log("読込完了しました");
+            pm.ShowPopup("読込完了しました");
         }
     }
 }
