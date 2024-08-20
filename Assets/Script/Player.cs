@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class Player : MonoBehaviour
     [SerializeField] private Vector3 InitialVelocity;   //初速度
     private float ApplySpeed = 0.1f;                    //回転の適用速度
     private PlayerFollow RefCamera;                     //カメラの水平回転を参照する
-    private Rigidbody Rigdbody;                         //Rigidbodyを参照
+    private Rigidbody _rigidbody;                        //Rigidbodyを参照
+    private Transform _transform;
+    private Animator _animator;
     private bool bSpeedUp = false;
     [SerializeField] private float MaxSpeed = 7.0f;
     [SerializeField] private float AddSpeed = 0.01f;
@@ -19,7 +22,9 @@ public class Player : MonoBehaviour
     private void Start()
     {
         Velocity = InitialVelocity;
-        Rigdbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
+        _transform = GetComponent<Transform>();
+        _animator = GetComponent<Animator>();
         RefCamera = GameObject.Find("Main Camera").GetComponent<PlayerFollow>();
     }
 
@@ -102,10 +107,14 @@ public class Player : MonoBehaviour
 
         //速度ベクトルの長さを１秒でMoveSpeedだけ進むように調整します
         Velocity = Velocity.normalized * MoveSpeed * Time.deltaTime;
+        
 
         //いずれかの方向に移動している場合
         if (Velocity.magnitude > 0)
         {
+            //アニメーションを"walking"にする
+            _animator.SetBool("walking", true);
+
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのZ+方向(後頭部)を
             //カメラの水平回転(RefCamera.Hrotation)で回した移動の反対方向(-Velocity)に回す回転に段々近づけます
@@ -116,6 +125,11 @@ public class Player : MonoBehaviour
             //プレイヤーの位置(transform.position)の更新
             //カメラの水平回転(RefCamera.Hrotation)で回した移動方向(Velocity)を足しこみます
             transform.position += RefCamera.Hrotation * Velocity;
+        }
+        else
+        {
+            //移動速度が0.01fより小さければ"walking"をやめる
+            _animator.SetBool("walking", false);
         }
     }
 }

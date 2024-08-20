@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DF74BF98-BB78-2F1B-2FDC-A4A483D65C2A}</ProjectGuid>
+    <ProjectGuid>{5C5617F1-FBBA-1D72-832B-0250B3B440A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -79,6 +79,7 @@
     <Compile Include="Assets\UnityChan\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\Script\Contact.cs" />
     <Compile Include="Assets\Script\Save.cs" />
   </ItemGroup>
   <ItemGroup>
