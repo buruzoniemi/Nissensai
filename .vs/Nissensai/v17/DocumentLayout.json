@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +26,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Contact.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
               "RelativeToolTip": "Assets\\Script\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T06:02:49.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerFollow.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerFollow.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerFollow.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T04:33:37.751Z"
+              "WhenOpened": "2024-08-13T04:33:37.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAIwGwAAABEAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAADwv2UAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:18:28.663Z",
               "EditorCaption": ""

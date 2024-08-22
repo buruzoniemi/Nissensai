@@ -15,9 +15,9 @@ public class Player : MonoBehaviour
     private Transform _transform;
     private Animator _animator;
     private bool bSpeedUp = false;
-    [SerializeField] private float MaxSpeed = 7.0f;
-    [SerializeField] private float AddSpeed = 0.01f;
-    [SerializeField] private float SubSpeed = 0.03f;
+    [SerializeField] private float MaxSpeed = 7.0f;     //速度の上限値
+    [SerializeField] private float AddSpeed = 0.05f;    //加速値
+    [SerializeField] private float SubSpeed = 0.05f;    //減速値
 
     private void Start()
     {
@@ -31,7 +31,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         //WASD入力から、XZ平面を移動する方向を得ます
-        if (Input.GetKey(KeyCode.W))
+
+        //上方向に加減速させる
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.z += Acceleration * Time.deltaTime;
@@ -43,12 +45,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.W))
+        else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        //左方向に加減速させる
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.x -= Acceleration * Time.deltaTime;
@@ -60,12 +63,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.A))
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        //下方向に加減速させる
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.z -= Acceleration * Time.deltaTime;
@@ -77,12 +81,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.S))
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        //右方向に加減速させる
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.x += Acceleration * Time.deltaTime;
@@ -94,12 +99,12 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             bSpeedUp = false;
         }
 
-        if (bSpeedUp == false && MoveSpeed > 0)
+        if (bSpeedUp == false && MoveSpeed > 0.0f)
         {
             MoveSpeed -= SubSpeed;
 
@@ -110,7 +115,7 @@ public class Player : MonoBehaviour
         
 
         //いずれかの方向に移動している場合
-        if (Velocity.magnitude > 0)
+        if (Velocity.magnitude > 0.0f)
         {
             //アニメーションを"walking"にする
             _animator.SetBool("walking", true);
@@ -128,7 +133,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            //移動速度が0.01fより小さければ"walking"をやめる
+            //移動速度が0.0f以下であければ"walking"をやめる
             _animator.SetBool("walking", false);
         }
     }
