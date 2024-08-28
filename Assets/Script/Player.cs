@@ -5,19 +5,19 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private Vector3 Velocity;                           //移動方向
-    private float MoveSpeed = 0.0f;                     //移動速度
-    [SerializeField] private float Acceleration;        //加速度
-    [SerializeField] private Vector3 InitialVelocity;   //初速度
-    private float ApplySpeed = 0.1f;                    //回転の適用速度
-    private PlayerFollow RefCamera;                     //カメラの水平回転を参照する
-    private Rigidbody _rigidbody;                        //Rigidbodyを参照
+    private Vector3 Velocity;                                   //移動方向
+    [SerializeField, Range(0, 1)] float MoveSpeed = 0.0f;       //移動速度
+    [SerializeField] private float Acceleration;                //加速度
+    [SerializeField] private Vector3 InitialVelocity;           //初速度
+    private float ApplySpeed = 0.1f;                            //回転の適用速度
+    private PlayerFollow RefCamera;                             //カメラの水平回転を参照する
+    private Rigidbody _rigidbody;                               //Rigidbodyを参照
     private Transform _transform;
     private Animator _animator;
     private bool bSpeedUp = false;
-    [SerializeField] private float MaxSpeed = 7.0f;     //速度の上限値
-    [SerializeField] private float AddSpeed = 0.05f;    //加速値
-    [SerializeField] private float SubSpeed = 0.05f;    //減速値
+    [SerializeField] private float MaxSpeed = 7.0f;             //速度の上限値
+    [SerializeField] private float AddSpeed = 0.05f;            //加速値
+    [SerializeField] private float SubSpeed = 0.05f;            //減速値
 
     private void Start()
     {
@@ -117,8 +117,7 @@ public class Player : MonoBehaviour
         //いずれかの方向に移動している場合
         if (Velocity.magnitude > 0.0f)
         {
-            //アニメーションを"walking"にする
-            _animator.SetBool("walking", true);
+            _animator.SetFloat("Blend", MoveSpeed);
 
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのZ+方向(後頭部)を
@@ -130,11 +129,6 @@ public class Player : MonoBehaviour
             //プレイヤーの位置(transform.position)の更新
             //カメラの水平回転(RefCamera.Hrotation)で回した移動方向(Velocity)を足しこみます
             transform.position += RefCamera.Hrotation * Velocity;
-        }
-        else
-        {
-            //移動速度が0.0f以下であければ"walking"をやめる
-            _animator.SetBool("walking", false);
         }
     }
 }
