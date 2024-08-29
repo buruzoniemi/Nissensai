@@ -6,12 +6,11 @@ using UnityEngine.UI;
 public class Gacha : MonoBehaviour
 {
 
-    public int rate;
-    public int[] prob;
-    public Text textbox;
-    public List<string>[] prize = new List<string>[4] ;
-    GameObject canvas;
-    PopupManager pm;
+    public int rate; //等賞の数の変数宣言（rateは1の場合、一等賞という
+    public int[] prob; //それぞれの確率の変数宣言
+    public Text textbox; //メッセージボックスの変数宣言
+    public List<string>[] prize = new List<string>[4] ; //それぞれの等賞の賞品リスト
+    GameObject canvas; //Canvasの変数宣言
     /*
      * 現在の設定：
      * 確率：5%,20%,35%
@@ -25,9 +24,9 @@ public class Gacha : MonoBehaviour
     {
         for (int i = 0; i < prize.Length; i++)
         {
-            prize[i] = new List<string>();
+            prize[i] = new List<string>();　//賞品リストの初期化
         }
-        //ここで景品の名前を代入する
+        //ここで賞品の名前を代入する
         string[] a = { "胡桃", "メダル","学校" };
         prize[1].AddRange(a);
         string[] b = { "胡桃", "メダル", "学校" };
@@ -36,8 +35,6 @@ public class Gacha : MonoBehaviour
         prize[3].AddRange(c); 
 
         canvas = GameObject.Find("Canvas");
-        pm = canvas.GetComponent<PopupManager>();
-        canvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,56 +43,60 @@ public class Gacha : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
         {
-            Debug.Log(RunGacha());
+            Debug.Log(RunGacha()); //ガチャを回す+
             Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); //等賞それぞれの残る個数
         }
-        if (Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetKey(KeyCode.LeftControl)) //左下のControlキーを押したら
         {
-            canvas.SetActive(true);
-            if (rate != 0)
+            canvas.SetActive(true); //Canvasを有効する
+            if (rate != 0) //もし等賞の数を選択したら
             {
                 textbox.text = rate.ToString() + " 等賞の確率は：" + prob[rate].ToString() + "%\nその賞は残り " + prize[rate].Count.ToString() + " 個";
+                //その等賞の確率・残り数を表示する
             }
-            else textbox.text = "";
+            else textbox.text = ""; //なにも表示しません。
         }
         else
         {
-            canvas.SetActive(false);
+            canvas.SetActive(false); //Canvasを無効する
         }
         
     }
 
     string RunGacha()
     {
-        int chance = Random.Range(0, 100);
-        int boundary = 0;
-        string result;
-        if (chance < (boundary += prob[1]) && prize[1].Count > 0) //一等賞：5パーセント
+        int chance = Random.Range(0, 100); //0から99、ランダムな数字を設定する
+        int boundary = 0; //数字の当たり範囲の初期化
+        string result;　//戻り値の変数宣言
+        if (chance < (boundary += prob[1]) //当たり範囲に一等賞の確率を足し、その数字は範囲内で 
+            && prize[1].Count > 0) //一等賞は残っているなら
         {
-            int present = Random.Range(0, prize[1].Count);
-            result = "一等賞 " + prize[1][present];
+            int present = Random.Range(0, prize[1].Count);　//一等賞の賞品から抽選する
+            result = "一等賞 " + prize[1][present]; //戻り値の設定
             prize[1].RemoveAt(present); //引いたら抜きます
         }
-        else if (chance < (boundary += prob[2]) && prize[2].Count > 0) //二等賞：15パーセント
+        else if (chance < (boundary += prob[2]) //当たり範囲に二等賞の確率を足し、その数字は範囲内で 
+            && prize[2].Count > 0) //二等賞は残っているなら
         {
-            int present = Random.Range(0, prize[2].Count);
-            result = "二等賞 " + prize[2][present];
+            int present = Random.Range(0, prize[2].Count); //二等賞の賞品から抽選する
+            result = "二等賞 " + prize[2][present]; //戻り値の設定
             prize[2].RemoveAt(present);//引いたら抜きます
         }
-        else if (chance < (boundary += prob[3]) && prize[3].Count > 0) //三等賞：30パーセント
+        else if (chance < (boundary += prob[3]) //当たり範囲に三等賞の確率を足し、その数字は範囲内で 
+            && prize[3].Count > 0) //三等賞は残っているなら
         {
-            int present = Random.Range (0, prize[3].Count);
-            result = "三等賞 " + prize[3][present];
+            int present = Random.Range (0, prize[3].Count); //三等賞の賞品から抽選する
+            result = "三等賞 " + prize[3][present]; //戻り値の設定
             prize[3].RemoveAt(present);//引いたら抜きます
         }
-        else
+        else //範囲外なら
         {
-            result = "ポケットティッシュ";
+            result = "ポケットティッシュ"; //戻り値の設定
         }
-        return result;
+        return result; //文字を戻す
     }
 
-    public void LoadPrize(int rank, string present)
+    public void LoadPrize(int rank, string present) //string型の配列からList型に変換する
     {
         string[] temp = { present };
         prize[rank].AddRange(temp);
