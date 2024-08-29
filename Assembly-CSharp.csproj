@@ -73,13 +73,13 @@
     <Compile Include="Assets\Script\MapCreation.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Script\PopupManager.cs" />
-    <Compile Include="Assets\Clock\ClockMove.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\Clock\ClockHandsManager.cs" />
     <Compile Include="Assets\Script\Contact.cs" />
     <Compile Include="Assets\Script\Save.cs" />
   </ItemGroup>

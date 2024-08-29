@@ -711,6 +711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c807616b7abc540914e990c7a224e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TimeNum: 1
+  particleObject: {fileID: 0}
 --- !u!1001 &4171448569494964740
 PrefabInstance:
   m_ObjectHideFlags: 0
