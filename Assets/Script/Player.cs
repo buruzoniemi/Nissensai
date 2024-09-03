@@ -1,32 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    private Vector3 Velocity;                           //移動方向
-    private float MoveSpeed = 0.0f;                     //移動速度
-    [SerializeField] private float Acceleration;        //加速度
-    [SerializeField] private Vector3 InitialVelocity;   //初速度
-    private float ApplySpeed = 0.1f;                    //回転の適用速度
-    private PlayerFollow RefCamera;                     //カメラの水平回転を参照する
-    private Rigidbody Rigdbody;                         //Rigidbodyを参照
+    private Vector3 Velocity;                                   //移動方向
+    [SerializeField, Range(0, 1)] float MoveSpeed = 0.0f;       //移動速度
+    [SerializeField] private float Acceleration;                //加速度
+    [SerializeField] private Vector3 InitialVelocity;           //初速度
+    private float ApplySpeed = 0.1f;                            //回転の適用速度
+    private PlayerFollow RefCamera;                             //カメラの水平回転を参照する
+    private Rigidbody _rigidbody;                               //Rigidbodyを参照
+    private Transform _transform;
+    private Animator _animator;
     private bool bSpeedUp = false;
-    [SerializeField] private float MaxSpeed = 7.0f;
-    [SerializeField] private float AddSpeed = 0.01f;
-    [SerializeField] private float SubSpeed = 0.03f;
+    [SerializeField] private float MaxSpeed = 7.0f;             //速度の上限値
+    [SerializeField] private float AddSpeed = 0.05f;            //加速値
+    [SerializeField] private float SubSpeed = 0.05f;            //減速値
 
     private void Start()
     {
         Velocity = InitialVelocity;
-        Rigdbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
+        _transform = GetComponent<Transform>();
+        _animator = GetComponent<Animator>();
         RefCamera = GameObject.Find("Main Camera").GetComponent<PlayerFollow>();
     }
 
     void Update()
     {
-        //WASD入力から、XZ平面を移動する方向を得ます
-        if (Input.GetKey(KeyCode.W))
+        //十字キー入力から、XZ平面を移動する方向を得ます
+
+        //上方向に加減速させる
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.z += Acceleration * Time.deltaTime;
@@ -38,12 +45,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.W))
+        else if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        //左方向に加減速させる
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.x -= Acceleration * Time.deltaTime;
@@ -55,12 +63,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.A))
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        //下方向に加減速させる
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.z -= Acceleration * Time.deltaTime;
@@ -72,12 +81,13 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.S))
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             bSpeedUp = false;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        //右方向に加減速させる
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             //加速度の時間積分から速度を求める
             Velocity.x += Acceleration * Time.deltaTime;
@@ -89,12 +99,183 @@ public class Player : MonoBehaviour
             }
             bSpeedUp = true;
         }
-        else if (Input.GetKeyUp(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             bSpeedUp = false;
         }
 
-        if (bSpeedUp == false && MoveSpeed > 0)
+        //L Stick
+        float lsh = Input.GetAxis("L_Stick_H");
+        float lsv = Input.GetAxis("L_Stick_V");
+
+        //スティック操作をしているかどうか
+        if ((lsh != 0) || (lsv != 0))
+        {
+
+            //スティックを上に倒したとき
+            if (lsh > 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.z += Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (lsh == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //スティックを下に倒したとき
+            if (lsh < 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.z -= Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (lsh == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //スティックを右に倒したとき
+            if (lsv < 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.x -= Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (lsv == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //スティックを左に倒したとき
+            if (lsv > 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.x += Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (lsv == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //bSpeedUpがfalseであれば減速させる
+            if (bSpeedUp == false && MoveSpeed > 0.0f)
+            {
+                MoveSpeed -= SubSpeed;
+
+            }
+        }
+
+        //スティック操作をしていない場合
+        else
+        {
+            //D-Pad
+            float dph = Input.GetAxis("D_Pad_H");
+            float dpv = Input.GetAxis("D_Pad_V");
+
+            //上十字をに押したとき
+            if (dph > 0)
+            {
+                Debug.Log("上");
+                //加速度の時間積分から速度を求める
+                Velocity.z += Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (dph == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //下十字を押したとき
+            if (dph < 0)
+            {
+                Debug.Log("下");
+                //加速度の時間積分から速度を求める
+                Velocity.z -= Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (dph == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //右十字を押したとき
+            if (dpv < 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.x -= Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (dpv == 0)
+            {
+                bSpeedUp = false;
+            }
+
+            //左十字を押したとき
+            if (dpv > 0)
+            {
+                //加速度の時間積分から速度を求める
+                Velocity.x += Acceleration * Time.deltaTime;
+                //速度の時間積分から位置を求める
+                transform.position += Velocity * Time.deltaTime;
+                if (MoveSpeed < MaxSpeed)
+                {
+                    MoveSpeed += AddSpeed;    //加速させる
+                }
+                bSpeedUp = true;
+            }
+            else if (dpv == 0)
+            {
+                bSpeedUp = false;
+            }
+        }
+
+        //bSpeedUpがfalseであれば減速させる
+        if (bSpeedUp == false && MoveSpeed > 0.0f)
         {
             MoveSpeed -= SubSpeed;
 
@@ -102,10 +283,13 @@ public class Player : MonoBehaviour
 
         //速度ベクトルの長さを１秒でMoveSpeedだけ進むように調整します
         Velocity = Velocity.normalized * MoveSpeed * Time.deltaTime;
+        
 
         //いずれかの方向に移動している場合
-        if (Velocity.magnitude > 0)
+        if (Velocity.magnitude > 0.0f)
         {
+            _animator.SetFloat("Blend", MoveSpeed);
+
             //プレイヤーの回転(transform.rotation)の更新
             //無回転状態のプレイヤーのZ+方向(後頭部)を
             //カメラの水平回転(RefCamera.Hrotation)で回した移動の反対方向(-Velocity)に回す回転に段々近づけます

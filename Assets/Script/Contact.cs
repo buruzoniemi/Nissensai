@@ -24,5 +24,9 @@ public class Contact : MonoBehaviour
             {
                 Destroy(gameObject);//このゲームオブジェクトを消滅させる
             }
+        else if(Input.GetKey(KeyCode.Joystick1Button1))
+        {
+            Destroy(gameObject);//このゲームオブジェクトを消滅させる
+        }
     }
 }
