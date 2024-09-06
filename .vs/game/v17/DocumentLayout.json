@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\school\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|c:\\school\\game\\assets\\new2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\new2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|c:\\school\\game\\assets\\myscriptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\myscriptt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|c:\\school\\game\\assets\\mysrcipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\mysrcipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|C:\\school\\game\\assets\\extinctionjudgment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}|Assembly-CSharp.csproj|solutionrelative:assets\\extinctionjudgment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\game\\Assets\\tentativePlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\tentativePlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\game\\Assets\\New2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\New2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\game\\Assets\\MySrcipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MySrcipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\game\\Assets\\README_UnityChan_jp.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\README_UnityChan_jp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +34,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README_UnityChan_jp.txt",
+              "DocumentMoniker": "C:\\school\\game\\Assets\\README_UnityChan_jp.txt",
+              "RelativeDocumentMoniker": "Assets\\README_UnityChan_jp.txt",
+              "ToolTip": "C:\\school\\game\\Assets\\README_UnityChan_jp.txt",
+              "RelativeToolTip": "Assets\\README_UnityChan_jp.txt",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-29T11:20:18.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExtinctionJudgment.cs",
+              "DocumentMoniker": "C:\\school\\game\\Assets\\ExtinctionJudgment.cs",
+              "RelativeDocumentMoniker": "Assets\\ExtinctionJudgment.cs",
+              "ToolTip": "C:\\school\\game\\Assets\\ExtinctionJudgment.cs",
+              "RelativeToolTip": "Assets\\ExtinctionJudgment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T10:17:50.12Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyScriptt.cs",
+              "DocumentMoniker": "C:\\school\\game\\Assets\\MyScriptt.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScriptt.cs",
+              "ToolTip": "C:\\school\\game\\Assets\\MyScriptt.cs",
+              "RelativeToolTip": "Assets\\MyScriptt.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:54:57.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tentativePlayer.cs",
+              "DocumentMoniker": "C:\\school\\game\\Assets\\tentativePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\tentativePlayer.cs",
+              "ToolTip": "C:\\school\\game\\Assets\\tentativePlayer.cs",
+              "RelativeToolTip": "Assets\\tentativePlayer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:39:17.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "New2.cs",
               "DocumentMoniker": "C:\\school\\game\\Assets\\New2.cs",
               "RelativeDocumentMoniker": "Assets\\New2.cs",
               "ToolTip": "C:\\school\\game\\Assets\\New2.cs",
               "RelativeToolTip": "Assets\\New2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:54:41.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T05:54:41.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MySrcipt.cs",
               "DocumentMoniker": "C:\\school\\game\\Assets\\MySrcipt.cs",
               "RelativeDocumentMoniker": "Assets\\MySrcipt.cs",
@@ -43,8 +105,7 @@
               "RelativeToolTip": "Assets\\MySrcipt.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T11:22:22.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T11:22:22.098Z"
             }
           ]
         }

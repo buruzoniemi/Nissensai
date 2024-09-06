@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Box
-  - ' contact'
+  - ' turnip'
+  - objectA
+  - player
+  - wall
   layers:
   - Default
   - TransparentFX
