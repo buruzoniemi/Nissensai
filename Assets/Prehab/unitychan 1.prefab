@@ -7186,6 +7186,7 @@ GameObject:
   - component: {fileID: 13600000}
   - component: {fileID: 5400000}
   - component: {fileID: 4343382699240799296}
+  - component: {fileID: -1427955734942536619}
   m_Layer: 0
   m_Name: unitychan 1
   m_TagString: ' contact'
@@ -7212,6 +7213,7 @@ Transform:
   - {fileID: 400006}
   - {fileID: 400004}
   - {fileID: 400002}
+  - {fileID: 416914841753605902}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9500000
@@ -7303,3 +7305,47 @@ MonoBehaviour:
   MaxSpeed: 7
   AddSpeed: 0.01
   SubSpeed: 0.03
+--- !u!114 &-1427955734942536619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c54a8e0b3e35540b27f8560c17834b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overHeadMsgPrefab: {fileID: 8081181260746115915, guid: 75938a5348bd4a54c8f666f208fc3e67, type: 3}
+--- !u!1 &4309425502446698359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416914841753605902}
+  m_Layer: 0
+  m_Name: PopupRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416914841753605902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309425502446698359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400100}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
