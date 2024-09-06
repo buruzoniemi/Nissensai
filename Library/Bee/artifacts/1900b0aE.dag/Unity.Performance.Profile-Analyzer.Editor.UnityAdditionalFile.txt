@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\School\Nissensai
+=======
+C:\school\game
+>>>>>>> e9e66711 (﻿あ)
