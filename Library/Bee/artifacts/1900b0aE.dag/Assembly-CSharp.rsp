@@ -356,6 +356,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Clock/ClockHandsManager.cs"
+"Assets/ExtinctionJudgment.cs"
+"Assets/MyScriptt.cs"
 "Assets/Script/Contact.cs"
 "Assets/Script/Gacha.cs"
 "Assets/Script/MapCreation.cs"
@@ -365,18 +367,6 @@
 "Assets/Script/PrizeChoice.cs"
 "Assets/Script/RateChange.cs"
 "Assets/Script/Save.cs"
-"Assets/UnityChan/Scripts/AutoBlink.cs"
-"Assets/UnityChan/Scripts/CameraController.cs"
-"Assets/UnityChan/Scripts/FaceUpdate.cs"
-"Assets/UnityChan/Scripts/IdleChanger.cs"
-"Assets/UnityChan/Scripts/IKCtrlRightHand.cs"
-"Assets/UnityChan/Scripts/RandomWind.cs"
-"Assets/UnityChan/Scripts/SpringBone.cs"
-"Assets/UnityChan/Scripts/SpringCollider.cs"
-"Assets/UnityChan/Scripts/SpringManager.cs"
-"Assets/UnityChan/Scripts/ThirdPersonCamera.cs"
-"Assets/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs"
-"Assets/UnityChan/SplashScreen/Scripts/SplashScreen.cs"
 -langversion:9.0
 
 /deterministic

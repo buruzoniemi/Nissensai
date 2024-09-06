@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Clock.unity
-=======
 - path: Assets/Scenes/SampleScene.unity
->>>>>>> e9e66711 (﻿あ)
   isLoaded: 1
   isActive: 1
   isSubScene: 0

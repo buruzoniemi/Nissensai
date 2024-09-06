@@ -24,7 +24,7 @@ public class ClockMove : MonoBehaviour
         Debug.Log(TimeNum + "分で１周する時計");
 
         //フラグが朝の状態のことを1度だけ表示
-        if (MoningNight = true)
+        if (MoningNight == true)
         {
             Debug.Log("朝");
         }
