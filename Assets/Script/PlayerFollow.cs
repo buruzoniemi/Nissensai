@@ -17,7 +17,7 @@ public class PlayerFollow : MonoBehaviour
     void Start()
     {
         //‰ñ“]‚Ì‰Šú‰»
-        Vrotation = Quaternion.Euler(60, 0, 0);         // ‚’¼‰ñ“](X²‚ğ²‚Æ‚·‚é‰ñ“])‚ÍA45“xŒ©‰º‚ë‚·‰ñ“]
+        Vrotation = Quaternion.Euler(60, 0, 0);         // ‚’¼‰ñ“](X²‚ğ²‚Æ‚·‚é‰ñ“])‚ÍA60“xŒ©‰º‚ë‚·‰ñ“]
         Hrotation = Quaternion.identity;                // …•½‰ñ“](Y²‚ğ²‚Æ‚·‚é‰ñ“])‚ÍA–³‰ñ“]
         transform.rotation = Hrotation * Vrotation;     // ÅI“I‚ÈƒJƒƒ‰‚Ì‰ñ“]‚ÍA‚’¼‰ñ“]‚µ‚Ä‚©‚ç…•½‰ñ“]‚·‚é‡¬‰ñ“]
 
