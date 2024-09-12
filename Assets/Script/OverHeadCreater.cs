@@ -26,10 +26,13 @@ public class OverHeadCreater : MonoBehaviour
 
   
     void Update()
-    {   
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            overHeadMsg.gameObject.SetActive(true);
-        }
+    {
+        //Contact tach = GetComponent<Contact>();
+        //tach.OnCollisionStay();
+
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //overHeadMsg.gameObject.SetActive(true);
+        //}
     }
 }
