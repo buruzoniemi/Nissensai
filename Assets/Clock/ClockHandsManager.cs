@@ -10,6 +10,7 @@ public class ClockMove : MonoBehaviour
     private bool MoningNight = true;    //朝夜のフラグ
     public GameObject particleObject;   //transform.RotateのZ座標を取得するためのもの
 
+    public Material sky;
 
 
     void Start()
@@ -26,6 +27,8 @@ public class ClockMove : MonoBehaviour
         //フラグが朝の状態のことを1度だけ表示
         if (MoningNight == true)
         {
+            RenderSettings.skybox = sky;
+
             Debug.Log("朝");
         }
 
@@ -50,6 +53,8 @@ public class ClockMove : MonoBehaviour
 
         if (gameObject.transform.localEulerAngles.z <= 0)
         {
+            RenderSettings.skybox = sky;
+
             MoningNight = true;
             Debug.Log("朝");
         }

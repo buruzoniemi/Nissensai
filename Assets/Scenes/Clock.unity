@@ -584,6 +584,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7681816876196808551, guid: 6824d92c5fe684646a56c7448e1fcd10, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1987252040}
+    - targetCorrespondingSourceObject: {fileID: 7681816876196808551, guid: 6824d92c5fe684646a56c7448e1fcd10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987252043}
   m_SourcePrefab: {fileID: 100100000, guid: 6824d92c5fe684646a56c7448e1fcd10, type: 3}
 --- !u!1 &1866559851
 GameObject:
@@ -713,6 +716,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeNum: 1
   particleObject: {fileID: 0}
+  sky: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
+--- !u!45 &1987252043
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987252033}
+  m_Enabled: 0
+  m_CustomSkybox: {fileID: 2100000, guid: f531e09e2ad2fb440b4eed7605863143, type: 2}
 --- !u!1001 &4171448569494964740
 PrefabInstance:
   m_ObjectHideFlags: 0
