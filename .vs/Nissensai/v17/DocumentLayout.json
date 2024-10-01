@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\School\\Nissensai\\",
+  "WorkspaceRootPath": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|c:\\school\\nissensai\\assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|c:\\school\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\nissensai\\Assets\\Script\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,40 +33,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClockHandsManager.cs",
-              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Clock\\ClockHandsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Clock\\ClockHandsManager.cs",
-              "ToolTip": "C:\\School\\Nissensai\\Assets\\Clock\\ClockHandsManager.cs",
-              "RelativeToolTip": "Assets\\Clock\\ClockHandsManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBoAAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\nissensai\\Assets\\Script\\Player.cs",
+              "ToolTip": "D:\\nissensai\\Assets\\Script\\Player.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAADwv6AAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:15:25.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T09:09:46.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ClockHandsManager.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Clock\\ClockHandsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Clock\\ClockHandsManager.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Clock\\ClockHandsManager.cs",
+              "RelativeToolTip": "Assets\\Clock\\ClockHandsManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:15:25.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AnimationBlendTree.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
-              "RelativeDocumentMoniker": "..\\..\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AnimationBlendTree.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
-              "RelativeToolTip": "..\\..\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
+              "RelativeToolTip": "Assets\\Script\\AnimationBlendTree.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T01:46:41.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Contact.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Contact.cs",
-              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Contact.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
               "RelativeToolTip": "Assets\\Script\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,11 +83,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerFollow.cs",
-              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\PlayerFollow.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerFollow.cs",
-              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\PlayerFollow.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerFollow.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAADwvyIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Player.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAAL8AAAAAAAAAAAAAANkAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:18:28.663Z",
               "EditorCaption": ""
