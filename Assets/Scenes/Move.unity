@@ -171,13 +171,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4957198317058432523, guid: ee820be7aa03cb8438e88fd7c1f3f3fc, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6922854373646435401, guid: ee820be7aa03cb8438e88fd7c1f3f3fc, type: 3}
       propertyPath: m_Name
       value: Cube
       objectReference: {fileID: 0}
     - target: {fileID: 6922854373646435401, guid: ee820be7aa03cb8438e88fd7c1f3f3fc, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: kabu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -408,6 +412,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ef557c92c1ecab74d8018d2591596896, type: 2}
+    - target: {fileID: 13600000, guid: c35cb69c9924f5046b0e950cccea9b39, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6085560436249487511, guid: c35cb69c9924f5046b0e950cccea9b39, type: 3}
     m_RemovedGameObjects: []
@@ -519,6 +527,10 @@ PrefabInstance:
     - target: {fileID: 281341836298912841, guid: 2e9db3a248253144697c861652c76b7e, type: 3}
       propertyPath: m_Name
       value: turnip
+      objectReference: {fileID: 0}
+    - target: {fileID: 281341836298912841, guid: 2e9db3a248253144697c861652c76b7e, type: 3}
+      propertyPath: m_TagString
+      value: kabu
       objectReference: {fileID: 0}
     - target: {fileID: 4766135773955291684, guid: 2e9db3a248253144697c861652c76b7e, type: 3}
       propertyPath: m_LocalPosition.x

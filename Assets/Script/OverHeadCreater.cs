@@ -21,18 +21,34 @@ public class OverHeadCreater : MonoBehaviour
 		overHeadMsg.camera = mainCamera;
 		//非表示にしておく
 		overHeadMsg.gameObject.SetActive(false);
-
 	}
 
-  
     void Update()
     {
-        //Contact tach = GetComponent<Contact>();
-        //tach.OnCollisionStay();
 
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //overHeadMsg.gameObject.SetActive(true);
-        //}
+    }
+
+    private void OnCollisionStay(Collision collision)  //ぶつかっている時にスペースを押すと消える命令文の始まり
+    {
+        Debug.Log(collision.gameObject.name); // ぶつかった相手の名前を取得
+
+        if (collision.gameObject.CompareTag("kabu"))//kabuTagのオブジェクトに触れている時の処理
+        {
+            overHeadMsg.gameObject.SetActive(true);//KABUのUIを表示させる
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Destroy(collision.gameObject);//このゲームオブジェクトを消滅させる
+            }
+            else if (Input.GetKey(KeyCode.Joystick1Button1))
+            {
+                Destroy(collision.gameObject);//このゲームオブジェクトを消滅させる
+            }
+        }
+
+        else
+        {
+            overHeadMsg.gameObject.SetActive(false);//それ以外の時はKABUのUIを非表示にしておく
+        }
     }
 }

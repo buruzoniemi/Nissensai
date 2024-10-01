@@ -8,6 +8,9 @@ TagManager:
   - objectA
   - player
   - wall
+  - ' contact'
+  - Box
+  - kabu
   layers:
   - Default
   - TransparentFX
