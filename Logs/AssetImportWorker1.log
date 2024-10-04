@@ -1,0 +1,384 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32612 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/22cu0125/Nissensai
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50855
+Successfully changed project path to: D:/22cu0125/Nissensai
+D:/22cu0125/Nissensai
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8084] Host "[IP] 10.40.192.137 [Port] 0 [Flags] 2 [Guid] 485268032 [EditorId] 485268032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6BMPQS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8084] Host "[IP] 10.40.192.137 [Port] 0 [Flags] 2 [Guid] 485268032 [EditorId] 485268032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S6BMPQS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/22cu0125/Nissensai/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009125 seconds.
+- Loaded All Assemblies, in  0.360 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.269 seconds
+Domain Reload Profiling: 628ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Failed to load shader (instanceID 412, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 428, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 420, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 422, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 414, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 424, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 426, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 416, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 430, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 418, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 432, GUID 7a95784c68f03494d8c7911e15fab82a)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3483 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.9 KB). Loaded Objects now: 3950.
+Memory consumption went from 131.7 MB to 131.6 MB.
+Total: 3.697200 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.181100 ms MarkObjects: 3.047700 ms  DeleteObjects: 0.132900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102336.596272 seconds.
+  path: Assets/SkySeries Freebie/HighFantasy.mat
+  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc52a14fa67aa5e5f9c5063275ffa6a') in 0.181517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SkySeries Freebie/SunlessCirruscover.mat
+  artifactKey: Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/SunlessCirruscover.mat using Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc74a33f15070f5e2f908c78448cce4') in 0.039905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkySeries Freebie/6SidedFluffball.mat
+  artifactKey: Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/6SidedFluffball.mat using Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1efbfd6b1bf2b55b86f9e017628e2c') in 0.137256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkySeries Freebie/AmbienceExposure.mat
+  artifactKey: Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/AmbienceExposure.mat using Guid(72deae4d18418f94688abef8e8483df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dc31e846b317a0a47f8aafb08a9336') in 0.034441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SkySeries Freebie/CasualDay.mat
+  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feebb6d10ce7bdf6e0047ddb90d769d8') in 0.033615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1498.223569 seconds.
+  path: Assets/Nissennsaikun/Model/Running.fbx
+  artifactKey: Guid(4f2cdabfaf202f94da584b6d1be90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/Model/Running.fbx using Guid(4f2cdabfaf202f94da584b6d1be90f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffad5232e99665828b41ed837972f2aa') in 0.336363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Nissennsaikun/Model/Unarmed Idle.fbx
+  artifactKey: Guid(be969571ad88c5345a2635bae356b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/Model/Unarmed Idle.fbx using Guid(be969571ad88c5345a2635bae356b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374f641fb59378bba5390243f5209692') in 0.092232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 953.304728 seconds.
+  path: Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Emissive.1001.png
+  artifactKey: Guid(0720d26afa3df2f4d8e2817f0d879d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Emissive.1001.png using Guid(0720d26afa3df2f4d8e2817f0d879d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172ccb044ec77da005348e6bda5521f5') in 0.030768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Roughness.1001.png
+  artifactKey: Guid(ba9695d4d69e1c645943555fed4c8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Roughness.1001.png using Guid(ba9695d4d69e1c645943555fed4c8121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d38507508346502e12959c1de8c816') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Height.1001.png
+  artifactKey: Guid(95628e16c2c747e448c850c022afbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/ball/nissensai_ball_Height.1001.png using Guid(95628e16c2c747e448c850c022afbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f7f8ec003bec811668f9718b0cba62') in 0.009001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.912506 seconds.
+  path: Assets/Nissennsaikun/sourceimages/belt/nissensai_belt_Height.1001.png
+  artifactKey: Guid(dc98d7fa1f1da6d4c85caa5af3200e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/belt/nissensai_belt_Height.1001.png using Guid(dc98d7fa1f1da6d4c85caa5af3200e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1484413e6a26841228676246f6af0b1') in 0.012242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Nissennsaikun/sourceimages/belt/nissensai_belt_Normal.1001.png
+  artifactKey: Guid(f0596865ba2610a4d9fc396b77858849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/belt/nissensai_belt_Normal.1001.png using Guid(f0596865ba2610a4d9fc396b77858849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18b5c532aea23700e1d361dd08eef7c') in 0.010976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.498514 seconds.
+  path: Assets/Nissennsaikun/sourceimages/belt_mannaka/nissensai_standardSurface6_Height.1001.png
+  artifactKey: Guid(884a12d77874ff245852be204063c1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/belt_mannaka/nissensai_standardSurface6_Height.1001.png using Guid(884a12d77874ff245852be204063c1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962dcff91cf9a938ff71ee19789be38a') in 0.015828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Nissennsaikun/sourceimages/belt_mannaka/nissensai_standardSurface6_Normal.1001.png
+  artifactKey: Guid(1f2104257da450b4ca30102ef3760acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/belt_mannaka/nissensai_standardSurface6_Normal.1001.png using Guid(1f2104257da450b4ca30102ef3760acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25fc830dfd8927b72a104aa9e1140c1') in 0.011272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.822557 seconds.
+  path: Assets/Nissennsaikun/sourceimages/body/nissensai_body1_Height.1001.png
+  artifactKey: Guid(e19d4037f91771e4180aff2ffcfee1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/body/nissensai_body1_Height.1001.png using Guid(e19d4037f91771e4180aff2ffcfee1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9549a40e13e90c057668eb31126a3f4') in 0.014858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Nissennsaikun/sourceimages/body/nissensai_body1_Metallic.1001.png
+  artifactKey: Guid(bd56159fc9ac64e4fbd983b49187dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/body/nissensai_body1_Metallic.1001.png using Guid(bd56159fc9ac64e4fbd983b49187dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e61ea080be2a27a764ffcdd61239b4f') in 0.008272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.856626 seconds.
+  path: Assets/Nissennsaikun/sourceimages/eye/nissensai_eye_Height.1001.png
+  artifactKey: Guid(e71f9a926b9011541a1369ea69e6db7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/eye/nissensai_eye_Height.1001.png using Guid(e71f9a926b9011541a1369ea69e6db7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb08a179c1be7b5814e92823b9e19a73') in 0.012590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Nissennsaikun/sourceimages/eye/nissensai_eye_Normal.1001.png
+  artifactKey: Guid(08af413472c83444685f358c8eae8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/eye/nissensai_eye_Normal.1001.png using Guid(08af413472c83444685f358c8eae8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09413ee16cc74dbaed561cd909088a57') in 0.010434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.464092 seconds.
+  path: Assets/Nissennsaikun/sourceimages/face/nissensai_face_Height.1001.png
+  artifactKey: Guid(dc2038afb3ebadd49883fe4a9927e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/face/nissensai_face_Height.1001.png using Guid(dc2038afb3ebadd49883fe4a9927e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196b40f1a831f433595ddd60eccefc30') in 0.022449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Nissennsaikun/sourceimages/face/nissensai_face_Roughness.1001.png
+  artifactKey: Guid(3eaf1a79f2ea63744adb04a8c6f8a417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/face/nissensai_face_Roughness.1001.png using Guid(3eaf1a79f2ea63744adb04a8c6f8a417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd6c7f9cc5ac4e08c11aa448cfd2bd6') in 0.024456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.719567 seconds.
+  path: Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Emissive.1001.png
+  artifactKey: Guid(f26d8abef869c5441930ae15e366d373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Emissive.1001.png using Guid(f26d8abef869c5441930ae15e366d373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1f92a958b1da0dc0bf9d43c8c7abb1') in 0.008209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001299 seconds.
+  path: Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Metallic.1001.png
+  artifactKey: Guid(17c0140ede3b7ad4f85b527717aba0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Metallic.1001.png using Guid(17c0140ede3b7ad4f85b527717aba0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee01a12224d4e3471426106158fff50') in 0.008748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Height.1001.png
+  artifactKey: Guid(f18fb70e6e16108458bd064194cd6c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nissennsaikun/sourceimages/linbs/nissensai_limbs_Height.1001.png using Guid(f18fb70e6e16108458bd064194cd6c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04c9364520ca6ab285ec19f1ff439f3') in 0.007983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

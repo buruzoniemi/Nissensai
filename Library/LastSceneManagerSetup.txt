@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SkySeries Freebie/ExampleScenes/DayInTheClouds.unity
+- path: Assets/Scenes/TestSceneMap.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

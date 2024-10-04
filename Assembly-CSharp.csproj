@@ -64,6 +64,7 @@
     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Script\OverHeadCreater.cs" />
+    <Compile Include="Assets\Nissennsaikun\TestWalkAnim.cs" />
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Script\PrizeChoice.cs" />
     <Compile Include="Assets\ExtinctionJudgment.cs" />
