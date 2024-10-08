@@ -716,7 +716,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeNum: 1
   particleObject: {fileID: 0}
-  sky: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
+  sky:
+  - {fileID: 2100000, guid: f531e09e2ad2fb440b4eed7605863143, type: 2}
+  - {fileID: 2100000, guid: b30125929ce79ef44b6ab6bcf6b06d4f, type: 2}
 --- !u!45 &1987252043
 Skybox:
   m_ObjectHideFlags: 0

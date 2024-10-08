@@ -5,12 +5,13 @@ using UnityEngine;
 public class ClockMove : MonoBehaviour
 {
     [SerializeField] private int TimeNum = 10;            //一周にかかる時間を変えるための変数、単位は 分 。
-
+   
     private float TimeCalculate = 0;    //タイマーの計算に使う値を渡す変数
     private bool MoningNight = true;    //朝夜のフラグ
     public GameObject particleObject;   //transform.RotateのZ座標を取得するためのもの
 
-    public Material sky;
+    public Material[] sky;
+    int num = 0;
 
 
     void Start()
@@ -27,7 +28,7 @@ public class ClockMove : MonoBehaviour
         //フラグが朝の状態のことを1度だけ表示
         if (MoningNight == true)
         {
-            RenderSettings.skybox = sky;
+            RenderSettings.skybox = sky[0];
 
             Debug.Log("朝");
         }
@@ -47,13 +48,17 @@ public class ClockMove : MonoBehaviour
         //Z座標（Rotation）が0～-180の間はtrue(朝)、１～180の間はfalse（夜）
         if (gameObject.transform.localEulerAngles.z <= 180 && MoningNight == true && gameObject.transform.localEulerAngles.z != 0)
         {
+            
+            RenderSettings.skybox = sky[0];
+
+
             MoningNight = false;
             Debug.Log("夜");
         }
 
         if (gameObject.transform.localEulerAngles.z <= 0)
         {
-            RenderSettings.skybox = sky;
+            RenderSettings.skybox = sky[1];
 
             MoningNight = true;
             Debug.Log("朝");
