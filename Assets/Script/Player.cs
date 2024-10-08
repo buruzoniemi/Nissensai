@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
 	private Transform _transform;
 	private Animator _animator;
 	[SerializeField] private float MaxSpeed = 7.0f;             //速度の上限値
-	[SerializeField] private float AddSpeed = 0.05f;            //加速値
+	[SerializeField] private float AddSpeed = 0.03f;            //加速値
 	[SerializeField] private float SubSpeed = 0.05f;            //減速値
 
 	private void Start()
@@ -60,8 +60,8 @@ public class Player : MonoBehaviour
 					MoveSpeed += AddSpeed;    //加速させる
 				}
 				bSpeedUp_z = true;
-			}
-			else if (lsv == 0)
+            }
+            else if (lsv == 0)
 			{
 				bSpeedUp_z = false;
 			}
@@ -292,7 +292,7 @@ public class Player : MonoBehaviour
 		//いずれかの方向に移動している場合
 		if (Velocity.magnitude > 0.0f)
 		{
-			_animator.SetFloat("Blend", MoveSpeed);
+			_animator.SetBool("Run", true); ;
 
 			//プレイヤーの回転(transform.rotation)の更新
 			//無回転状態のプレイヤーのZ+方向(後頭部)を
@@ -305,5 +305,9 @@ public class Player : MonoBehaviour
 			//カメラの水平回転(RefCamera.Hrotation)で回した移動方向(Velocity)を足しこみます
 			transform.position += RefCamera.Hrotation * Velocity;
 		}
+		else
+		{
+            _animator.SetBool("Run", false);
+        }
 	}
 }

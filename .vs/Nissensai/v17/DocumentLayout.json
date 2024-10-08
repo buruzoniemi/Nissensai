@@ -1,28 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\22cu0125\\Nissensai\\",
+  "WorkspaceRootPath": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\nissennsaikun\\testwalkanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\nissennsaikun\\testwalkanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\nissennsaikun\\testwalkanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\nissennsaikun\\testwalkanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\clock\\clockhandsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\AnimationBlendTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,19 +42,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Gacha.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Gacha.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Gacha.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Gacha.cs",
+              "RelativeToolTip": "Assets\\Script\\Gacha.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T12:26:02.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OverHeadCreater.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\OverHeadCreater.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\OverHeadCreater.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\OverHeadCreater.cs",
+              "RelativeToolTip": "Assets\\Script\\OverHeadCreater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T11:36:54.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TestWalkAnim.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Nissennsaikun\\TestWalkAnim.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Nissennsaikun\\TestWalkAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Nissennsaikun\\TestWalkAnim.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Nissennsaikun\\TestWalkAnim.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Nissennsaikun\\TestWalkAnim.cs",
               "RelativeToolTip": "Assets\\Nissennsaikun\\TestWalkAnim.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,57 +87,59 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ClockHandsManager.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Clock\\ClockHandsManager.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Clock\\ClockHandsManager.cs",
               "RelativeDocumentMoniker": "Assets\\Clock\\ClockHandsManager.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Clock\\ClockHandsManager.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Clock\\ClockHandsManager.cs",
               "RelativeToolTip": "Assets\\Clock\\ClockHandsManager.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAgwBoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:15:25.304Z"
+              "WhenOpened": "2024-09-06T11:15:25.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AnimationBlendTree.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AnimationBlendTree.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\AnimationBlendTree.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "RelativeToolTip": "Assets\\Script\\AnimationBlendTree.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T01:46:41.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T01:46:41.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Contact.cs",
               "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA1AAAA",
+              "RelativeToolTip": "Assets\\Script\\Contact.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T06:02:49.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PlayerFollow.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PlayerFollow.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerFollow.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PlayerFollow.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerFollow.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvyIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T04:33:37.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Player.cs",
+              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowAsAAAA0AAAA",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAIwG4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:18:28.663Z",
               "EditorCaption": ""

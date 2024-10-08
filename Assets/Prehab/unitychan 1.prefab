@@ -7185,7 +7185,6 @@ GameObject:
   - component: {fileID: 9500000}
   - component: {fileID: 13600000}
   - component: {fileID: 5400000}
-  - component: {fileID: 4343382699240799296}
   - component: {fileID: -1427955734942536619}
   m_Layer: 0
   m_Name: unitychan 1
@@ -7287,24 +7286,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &4343382699240799296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20e00fd3647716948b41ff58f69cd38e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 0
-  Acceleration: 1
-  InitialVelocity: {x: 0, y: 0, z: 0}
-  MaxSpeed: 7
-  AddSpeed: 0.01
-  SubSpeed: 0.03
 --- !u!114 &-1427955734942536619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7317,6 +7298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c54a8e0b3e35540b27f8560c17834b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentObject: {fileID: 0}
+  mainCamera: {fileID: 0}
+  targetObject: {fileID: 0}
   overHeadMsgPrefab: {fileID: 8081181260746115915, guid: 75938a5348bd4a54c8f666f208fc3e67, type: 3}
 --- !u!1 &4309425502446698359
 GameObject:
