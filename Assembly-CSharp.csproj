@@ -84,6 +84,7 @@
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Clock\ClockHandsManager.cs" />
+    <Compile Include="Assets\Script\Reset.cs" />
     <Compile Include="Assets\MyScriptt.cs" />
     <Compile Include="Assets\Script\Save.cs" />
   </ItemGroup>
