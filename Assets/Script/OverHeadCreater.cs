@@ -28,7 +28,7 @@ public class OverHeadCreater : MonoBehaviour
 
     }
 
-    private void OnCollisionStay(Collision collision)  //ぶつかっている時にスペースを押すと消える命令文の始まり
+    private void OnTriggerStay(Collider collision)  //ぶつかっている時にスペースを押すと消える命令文の始まり
     {
         Debug.Log(collision.gameObject.name); // ぶつかった相手の名前を取得
 
