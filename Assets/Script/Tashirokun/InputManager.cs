@@ -30,7 +30,8 @@ public enum KeyBoard
     UpArrow,
     DownArrow,
     LeftArrow,
-    RightArrow
+    RightArrow,
+    SpaceKey
 }
 
 
@@ -59,6 +60,7 @@ public class InputManager : MonoBehaviour
     private static bool downArrow;
     private static bool leftArrow;
     private static bool rightArrow;
+    private static bool space;
 
     private static Vector2 leftStick;
 
@@ -90,6 +92,7 @@ public class InputManager : MonoBehaviour
         downArrow = Keyboard.current.downArrowKey.isPressed ? true : false;
         leftArrow = Keyboard.current.leftArrowKey.isPressed ? true : false;
         rightArrow = Keyboard.current.rightArrowKey.isPressed ? true : false;
+        space = Keyboard.current.spaceKey.isPressed ? true : false;
     }
 
     /// <summary>
@@ -165,6 +168,8 @@ public class InputManager : MonoBehaviour
                 return leftArrow ? true : false;
             case KeyBoard.RightArrow:
                 return rightArrow ? true : false; ;
+            case KeyBoard.SpaceKey:
+                return space ? true : false;
         }
         return false;
     }

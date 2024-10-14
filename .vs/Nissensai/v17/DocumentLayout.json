@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\22cu0125\\Nissensai\\",
+  "WorkspaceRootPath": "C:\\School\\Nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|c:\\school\\nissensai\\assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\tashirokun\\testtrriger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\testtrriger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\testtrriger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\playerrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\playerrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playerrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,32 +38,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "testTrriger.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\testTrriger.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\testTrriger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:46:36.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T06:46:36.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OverHeadCreater.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\OverHeadCreater.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\OverHeadCreater.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\OverHeadCreater.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\OverHeadCreater.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\OverHeadCreater.cs",
               "RelativeToolTip": "Assets\\Script\\OverHeadCreater.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwB4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,22 +69,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Player.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Player.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Player.cs",
               "RelativeToolTip": "Assets\\Script\\Player.cs",
               "ViewState": "AQIAACABAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:39:48.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T06:39:48.043Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerAnimation.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwCcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PlayerMove.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerMove.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PlayerRotation.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerRotation.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerRotation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "InputManager.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\InputManager.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\InputManager.cs",
               "ViewState": "AQIAAI4AAAAAAAAAAAAWwJgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

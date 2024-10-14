@@ -41,7 +41,7 @@ public class PlayerAnimation : MonoBehaviour
 	}
 
 	//LiftのAnimation再生
-	public void CurryLift()
+	public void PlayLiftAnim()
 	{
 		anim.SetBool(animName.lift, true);
 	}
@@ -53,7 +53,7 @@ public class PlayerAnimation : MonoBehaviour
 	}
 
 	//PullUpのAnimationを再生
-	public void CurryPullUpAnim()
+	public void PlayPullUpAnim()
 	{
 		anim.SetBool(animName.pullUp, true);
 	}
