@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A241776F-D00A-9769-D96D-D76CF5A14818}</ProjectGuid>
+    <ProjectGuid>{B21586E0-6BAA-2BB7-48B0-421545F82373}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,6 +70,7 @@
     <Compile Include="Assets\UnityChan\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Script\PrizeChoice.cs" />
     <Compile Include="Assets\ExtinctionJudgment.cs" />
+    <Compile Include="Assets\Script\Tashirokun\GatyaKabu.cs" />
     <Compile Include="Assets\UnityChan\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Script\Gacha.cs" />
     <Compile Include="Assets\Script\Tashirokun\PlayerPickUp.cs" />
