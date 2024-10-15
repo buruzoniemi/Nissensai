@@ -12,9 +12,7 @@ public class GatyaKabu : MonoBehaviour
     public List<string>[] prize = new List<string>[4]; //それぞれの等賞の賞品リスト
     GameObject canvas; //Canvasの変数宣言
 
-
     PlayerAnimation playerAnimation;
-
     /*
      * 現在の設定：
      * 確率：5%,20%,35%
@@ -39,7 +37,8 @@ public class GatyaKabu : MonoBehaviour
         prize[3].AddRange(c);
 
         canvas = GameObject.Find("Canvas");
-    }
+        playerAnimation = this.GetComponent<PlayerAnimation>();
+	}
 
     // Update is called once per frame
     void Update()
@@ -47,8 +46,11 @@ public class GatyaKabu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
         {
+			playerAnimation.PlayPullUpAnim();
+            //以下でTimeLineの処理をしてカメラワークの制御
+
             Debug.Log(RunGacha()); //ガチャを回す+
-            Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); //等賞それぞれの残る個数
+			Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); //等賞それぞれの残る個数
         }
         if (Input.GetKey(KeyCode.LeftControl)) //左下のControlキーを押したら
         {
@@ -72,6 +74,7 @@ public class GatyaKabu : MonoBehaviour
         int chance = Random.Range(0, 100); //0から99、ランダムな数字を設定する
         int boundary = 0; //数字の当たり範囲の初期化
         string result;　//戻り値の変数宣言
+
         if (chance < (boundary += prob[1]) //当たり範囲に一等賞の確率を足し、その数字は範囲内で 
             && prize[1].Count > 0) //一等賞は残っているなら
         {
