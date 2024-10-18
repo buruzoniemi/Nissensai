@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class GatyaKabu : MonoBehaviour
@@ -12,17 +13,15 @@ public class GatyaKabu : MonoBehaviour
     public List<string>[] prize = new List<string>[4]; //それぞれの等賞の賞品リスト
     GameObject canvas; //Canvasの変数宣言
 
-    PlayerAnimation playerAnimation;
-    /*
+    PlayableDirector playableDirector; // TimeLineの使用する処理
+	/*
      * 現在の設定：
      * 確率：5%,20%,35%
      * いずれの等賞が無くなったでも、他の等賞の確率に影響はしません
      * 参加賞の個数は無限
      */
 
-
-    // Start is called before the first frame update
-    void Start()
+	void Start()
     {
         for (int i = 0; i < prize.Length; i++)
         {
@@ -37,7 +36,7 @@ public class GatyaKabu : MonoBehaviour
         prize[3].AddRange(c);
 
         canvas = GameObject.Find("Canvas");
-        playerAnimation = this.GetComponent<PlayerAnimation>();
+		playableDirector = GetComponent<PlayableDirector>();
 	}
 
     // Update is called once per frame
@@ -46,7 +45,6 @@ public class GatyaKabu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
         {
-			playerAnimation.PlayPullUpAnim();
             //以下でTimeLineの処理をしてカメラワークの制御
 
             Debug.Log(RunGacha()); //ガチャを回す+
