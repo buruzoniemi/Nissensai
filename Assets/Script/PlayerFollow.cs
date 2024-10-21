@@ -8,7 +8,7 @@ public class PlayerFollow : MonoBehaviour
     [SerializeField] private Transform Player;          // 注視対象プレイヤー
 
     private float Distance = 10.0f;     // 注視対象プレイヤーからカメラを離す距離
-    private float TurnSpeed = 7.5f;     //回転速度
+    //private float TurnSpeed = 7.5f;     //回転速度
 
     //合成回転を行うためQuaternionで制御する
     private Quaternion Vrotation;       // カメラの垂直回転(見下ろし回転)
@@ -29,10 +29,10 @@ public class PlayerFollow : MonoBehaviour
     void Update()
     {
         // マウスを使用した水平回転の更新
-        if (Input.GetMouseButton(0))
-        {
-            Hrotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * TurnSpeed, 0);
-        }
+        //if (Input.GetMouseButton(0))
+        //{
+            //Hrotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * TurnSpeed, 0);
+        //}
 
         // カメラの回転(transform.rotation)の更新
         // 方法1 : 垂直回転してから水平回転する合成回転とします

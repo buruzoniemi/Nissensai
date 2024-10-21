@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour
 {
     [SerializeField] private Transform Player;  //注視対象プレイヤー
-    private float Distance = 35.0f;             //注視対象プレイヤーからカメラを離す距離
+    private float Distance = 23.0f;             //注視対象プレイヤーからカメラを離す距離
     private Quaternion Vrotation;               //カメラの垂直回転(見下ろし回転)
 
     void Start()
