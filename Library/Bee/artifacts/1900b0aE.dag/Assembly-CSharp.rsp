@@ -375,6 +375,7 @@
 "Assets/Script/PlayerFollow.cs"
 "Assets/Script/PopupManager.cs"
 "Assets/Script/PrizeChoice.cs"
+"Assets/Script/PullUpAnimation.cs"
 "Assets/Script/RateChange.cs"
 "Assets/Script/Reset.cs"
 "Assets/Script/Save.cs"
