@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.Timeline;
@@ -7,127 +8,169 @@ using UnityEngine.UI;
 
 public enum GatyaNum
 {
-    firstRank,
-    secondRank,
-    thirdRank,
-    forthRank
+	firstRank,
+	secondRank,
+	thirdRank,
+	forthRank
 }
 
 public class GatyaKabu : MonoBehaviour
 {
-    public int rate; //等賞の数の変数宣言（rateは1の場合、一等賞という
-    public int[] prob; //それぞれの確率の変数宣言
-    public Text textbox; //メッセージボックスの変数宣言
-    public List<string>[] prize = new List<string>[4]; //それぞれの等賞の賞品リスト
-    GameObject canvas; //Canvasの変数宣言
+	public float[] prob; // 各等賞の確率（整数または小数）
+	private PopupManager pm;
+	public Text textbox; // メッセージボックスの変数宣言
+	public List<string>[] prize = new List<string>[4]; // 各等賞の賞品リスト
+	GameObject canvas; // Canvasの変数宣言
+	private bool bDebugMenu;
+	private PlayableDirector playableDirector; // Timelineの処理
+	[SerializeField] private List<TimelineAsset> timelineAsset;
 
-    private PlayableDirector playableDirector; // TimeLineの使用する処理
-    [SerializeField] private List<TimelineAsset> timelineAsset;
-    /*
-     * 現在の設定：
-     * 確率：5%,20%,35%
-     * いずれの等賞が無くなったでも、他の等賞の確率に影響はしません
-     * 参加賞の個数は無限
+	/*
+     * 確率の仕様：
+     * prob[0] = 5   -> 5% (整数で書かれている場合、パーセンテージとして扱う)
+     * prob[1] = 0.02 -> 0.02% (小数の場合はそのまま少数として扱う)
      */
+	private void Awake()
+	{
+		for (int i = 0; i < prize.Length; i++)
+		{
+			prize[i] = new List<string>(); // 賞品リストの初期化
+		}
 
-    void Start()
-    {
-        for (int i = 0; i < prize.Length; i++)
-        {
-            prize[i] = new List<string>();　//賞品リストの初期化
-        }
-        //ここで賞品の名前を代入する
-        string[] a = { "胡桃", "メダル", "学校" };
-        prize[1].AddRange(a);
-        string[] b = { "胡桃", "メダル", "学校" };
-        prize[2].AddRange(b);
-        string[] c = { "胡桃", "メダル", "学校" };
-        prize[3].AddRange(c);
+		// ここで賞品の名前を代入する
+		string[] a = { "胡桃", "メダル", "学校" };
+		prize[1].AddRange(a);
+		string[] b = { "胡桃", "メダル", "学校" };
+		prize[2].AddRange(b);
+		string[] c = { "胡桃", "メダル", "学校" };
+		prize[3].AddRange(c);
 
-        //canvas = GameObject.Find("Canvas");
-        playableDirector = GetComponent<PlayableDirector>();
-    }
+		playableDirector = GetComponent<PlayableDirector>();
+		pm = GameObject.Find("Canvas").GetComponent<PopupManager>();
+		canvas = GameObject.Find("Canvas");
+		textbox = GameObject.Find("Textbox").GetComponent<Text>();
+		bDebugMenu = true;
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
+	void Start()
+	{
+		canvas.SetActive(false);
+	}
 
-        if (Input.GetKeyDown(KeyCode.Space)) //スペースキーを押したらガチャを回す
-        {
-            //以下でTimeLineの処理をしてカメラワークの制御
-            RunGacha(); //ガチャを回す+
-            Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); //等賞それぞれの残る個数
-        }
-        if (Input.GetKey(KeyCode.LeftControl)) //左下のControlキーを押したら
-        {
-            //canvas.SetActive(true); //Canvasを有効する
-            if (rate != 0) //もし等賞の数を選択したら
-            {
-                textbox.text = rate.ToString() + " 等賞の確率は：" + prob[rate].ToString() + "%\nその賞は残り " + prize[rate].Count.ToString() + " 個";
-                //その等賞の確率・残り数を表示する
-            }
-            else textbox.text = ""; //なにも表示しません。
-        }
-        else
-        {
-            //canvas.SetActive(false); //Canvasを無効する
-        }
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Space)) // スペースキーを押したらガチャを回す
+		{
+			RunGacha(); // ガチャを回す
+			Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); // 等賞の残り数を表示
+		}
 
-    }
+		if (Input.GetKey(KeyCode.LeftControl)) // 左下のControlキーを押したら
+		{
+			if(bDebugMenu)
+			{
+				canvas.SetActive(true); //Canvasを有効する
+				bDebugMenu = false;
+				if (prob[0] > 0 || prob[1] > 0 || prob[2] > 0)
+				{
+					textbox.text = "各等賞の確率：1等 = " + DisplayProbability(prob[0]) + "%, 2等 = " + DisplayProbability(prob[1]) + "%, 3等 = " + DisplayProbability(prob[2]) + "%";
+				}
+				else textbox.text = ""; //なにも表示しません。
+			}
+			else if (!bDebugMenu)
+			{
+				canvas.SetActive(false); //Canvasを無効する
+				bDebugMenu = true;
+			}
+		}
+		
+	}
 
-    void RunGacha()
-    {
-        int chance = Random.Range(0, 100); //0から99、ランダムな数字を設定する
-        int boundary = 0; //数字の当たり範囲の初期化
+	// ガチャを実行する処理
+	void RunGacha()
+	{
+		float chance = Random.Range(0f, 100f); // 0.0 から 100.0 の間のランダムな値を生成
+		float cumulativeProbability = 0f; // 累積確率
 
-        if (chance < (boundary += prob[1]) //当たり範囲に一等賞の確率を足し、その数字は範囲内で 
-            && prize[1].Count > 0) //一等賞は残っているなら
-        {
-            //TimeLine1等の再生
-            if (timelineAsset[(int)GatyaNum.firstRank] == null) return;
-            playableDirector.playableAsset = timelineAsset[(int)GatyaNum.firstRank];
-            playableDirector.Play();
-            Debug.Log("1等");
+		// 1等賞の抽選
+		if (chance < (cumulativeProbability += ConvertToPercentage(prob[0])) && prize[1].Count > 0)
+		{
+			PlayTimeline(GatyaNum.firstRank); // Timelineの再生
+			GivePrize(1); // 1等賞の賞品を渡す
+			return;
+		}
 
-            int present = Random.Range(0, prize[1].Count);　//一等賞の賞品から抽選する
-            prize[1].RemoveAt(present); //引いたら抜きます
-        }
-        else if (chance < (boundary += prob[2]) //当たり範囲に二等賞の確率を足し、その数字は範囲内で 
-            && prize[2].Count > 0) //二等賞は残っているなら
-        {
-            //TimeLine2等の再生
-            if (timelineAsset[(int)GatyaNum.secondRank] == null) return;
-            playableDirector.playableAsset = timelineAsset[(int)GatyaNum.secondRank];
-            playableDirector.Play();
-            Debug.Log("2等");
+		// 2等賞の抽選
+		if (chance < (cumulativeProbability += ConvertToPercentage(prob[1])) && prize[2].Count > 0)
+		{
+			PlayTimeline(GatyaNum.secondRank); // Timelineの再生
+			GivePrize(2); // 2等賞の賞品を渡す
+			return;
+		}
 
-            int present = Random.Range(0, prize[2].Count); //二等賞の賞品から抽選する
-            prize[2].RemoveAt(present);//引いたら抜きます
-        }
-        else if (chance < (boundary += prob[3]) //当たり範囲に三等賞の確率を足し、その数字は範囲内で 
-            && prize[3].Count > 0) //三等賞は残っているなら
-        {
-            //TimeLine3等の再生
-            if (timelineAsset[(int)GatyaNum.thirdRank] == null) return;
-            playableDirector.playableAsset = timelineAsset[(int)GatyaNum.thirdRank];
-            playableDirector.Play();
-            Debug.Log("3等");
+		// 3等賞の抽選
+		if (chance < (cumulativeProbability += ConvertToPercentage(prob[2])) && prize[3].Count > 0)
+		{
+			PlayTimeline(GatyaNum.thirdRank); // Timelineの再生
+			GivePrize(3); // 3等賞の賞品を渡す
+			return;
+		}
 
-            int present = Random.Range(0, prize[3].Count); //三等賞の賞品から抽選する
-            prize[3].RemoveAt(present);//引いたら抜きます
-        }
-        else //範囲外なら
-        {
-            //TimeLine4等の再生
-            if (timelineAsset[(int)GatyaNum.forthRank] == null) return;
-            playableDirector.playableAsset = timelineAsset[(int)GatyaNum.forthRank];
-            playableDirector.Play();
-        }
-    }
+		// それ以外（参加賞）
+		PlayTimeline(GatyaNum.forthRank); // Timelineの再生
+		Debug.Log("4等（参加賞）");
+	}
 
-    public void LoadPrize(int rank, string present) //string型の配列からList型に変換する
-    {
-        string[] temp = { present };
-        prize[rank].AddRange(temp);
-    }
+	// 確率をパーセンテージに変換する処理
+	float ConvertToPercentage(float probability)
+	{
+		return probability;
+	}
+
+	// 表示用に確率をフォーマットするメソッド
+	string DisplayProbability(float probability)
+	{
+		return probability.ToString("F2"); // 例: "5.00" と表示
+	}
+
+	// Timelineを再生する処理
+	void PlayTimeline(GatyaNum rank)
+	{
+		if (timelineAsset[(int)rank] != null)
+		{
+			playableDirector.playableAsset = timelineAsset[(int)rank];
+			playableDirector.Play();
+			Debug.Log(rank.ToString() + " 等のTimelineを再生しました。");
+		}
+	}
+
+	// 賞品を渡す処理
+	void GivePrize(int rank)
+	{
+		if (prize[rank].Count > 0)
+		{
+			int presentIndex = Random.Range(0, prize[rank].Count); // 賞品リストからランダムに選ぶ
+			string present = prize[rank][presentIndex];
+			prize[rank].RemoveAt(presentIndex); // 選んだ賞品をリストから削除
+
+			Debug.Log(rank.ToString() + " 等賞！賞品：" + present);
+		}
+		else
+		{
+			Debug.Log(rank.ToString() + " 等賞は在庫切れです。");
+		}
+	}
+
+	// 賞品を追加する処理
+	public void LoadPrize(int rank, string present)
+	{
+		prize[rank].Add(present);
+	}
+
+	public void AdjustProbability(int rank, float adjustmentValue)
+	{
+		// 確率を調整するロジックをここに追加
+		// 例: rankに基づいて確率を変更
+		Debug.Log($"Rank: {rank}, Adjustment: {adjustmentValue}");
+	}
 }

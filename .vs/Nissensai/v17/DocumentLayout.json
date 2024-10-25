@@ -1,50 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\",
+  "WorkspaceRootPath": "D:\\22cu0125\\Nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|c:\\24cu0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\tashirokun\\gachaprobabilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\gachaprobabilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\playerrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\playerrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\ratechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ratechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\popupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\popupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gacha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\tashirokun\\testtrriger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\testtrriger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C5617F1-FBBA-1D72-832B-0250B3B440A4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\overheadcreater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,138 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerFollow.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerFollow.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\PlayerFollow.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerFollow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:46:13.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainCamera.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\MainCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\MainCamera.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\MainCamera.cs",
-              "RelativeToolTip": "Assets\\Script\\MainCamera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:42:43.959Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GatyaKabu.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
-              "RelativeToolTip": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAADAAAA",
+              "Title": "PopupManager.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PopupManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PopupManager.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PopupManager.cs",
+              "RelativeToolTip": "Assets\\Script\\PopupManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAEwBAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T01:35:55.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Gacha.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Gacha.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Gacha.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Gacha.cs",
-              "RelativeToolTip": "Assets\\Script\\Gacha.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAUwGgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:43:16.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "testTrriger.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\testTrriger.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\testTrriger.cs",
-              "RelativeToolTip": "Assets\\Script\\Tashirokun\\testTrriger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:46:36.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OverHeadCreater.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\OverHeadCreater.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\OverHeadCreater.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\OverHeadCreater.cs",
-              "RelativeToolTip": "Assets\\Script\\OverHeadCreater.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvxIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:40:16.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Player.cs",
-              "RelativeToolTip": "Assets\\Script\\Player.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAkwD0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T06:39:48.043Z",
+              "WhenOpened": "2024-10-25T02:30:20.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerAnimation.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
-              "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerAnimation.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAywCcAAAAUAAAA",
+              "Title": "GachaProbabilityController.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "RelativeToolTip": "Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T00:50:22.084Z",
+              "WhenOpened": "2024-10-25T02:29:23.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GatyaKabu.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "RelativeToolTip": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwEsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T01:35:55.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerMove.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerMove.cs",
-              "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerMove.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAQwFkAAAAaAAAA",
+              "Title": "PrizeChoice.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrizeChoice.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
+              "RelativeToolTip": "Assets\\Script\\PrizeChoice.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:57:54.308Z",
+              "WhenOpened": "2024-10-25T01:02:07.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PlayerRotation.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\PlayerRotation.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\PlayerRotation.cs",
-              "RelativeToolTip": "Assets\\Script\\Tashirokun\\PlayerRotation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "RateChange.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\RateChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RateChange.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\RateChange.cs",
+              "RelativeToolTip": "Assets\\Script\\RateChange.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T13:24:43.252Z"
+              "WhenOpened": "2024-10-25T01:02:22.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Save.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Save.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Save.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Save.cs",
+              "RelativeToolTip": "Assets\\Script\\Save.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:26:38.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reset.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Reset.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Reset.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Reset.cs",
+              "RelativeToolTip": "Assets\\Script\\Reset.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T02:26:36.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "InputManager.cs",
-              "DocumentMoniker": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\InputManager.cs",
-              "ToolTip": "C:\\24CU0130_\u4E2D\u7530\u6A39\u5E0C\\nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\InputManager.cs",
               "ViewState": "AQIAAG0AAAAAAAAAAAAWwIgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

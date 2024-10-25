@@ -11,6 +11,7 @@ TagManager:
   - ' contact'
   - Box
   - kabu
+  - vegetable
   layers:
   - Default
   - TransparentFX

@@ -5,12 +5,10 @@ using UnityEngine;
 public class Save : MonoBehaviour
 {
     PopupManager pm;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
+	private void Awake()
+	{
         pm = GameObject.Find("Canvas").GetComponent<PopupManager>();
-    }
+	}
 
     // Update is called once per frame
     void Update()
