@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
+
 
 public class PullUpAnimation : MonoBehaviour
 {
@@ -11,13 +13,13 @@ public class PullUpAnimation : MonoBehaviour
     }
 
     private float sec = 0;
-    private bool Fnish = false; //アニメーションを行ったかどうかのフラグ
+    public bool Finish = false; //アニメーションを行ったかどうかのフラグ
 
     void Update()
     {
         //Fnishがtureになったら五秒後にfalseに戻す処理
         sec += Time.deltaTime;
-        if (Fnish = true)
+        if (Finish == true)
         {
             if (sec >= 5f)
             {
@@ -25,9 +27,14 @@ public class PullUpAnimation : MonoBehaviour
                 p_animator.SetBool("PullUp", false);
                 p_animator.SetBool("Lift", false);
 
+            
+                Finish = false;
+
                 sec = 0;
+
             }
         }
+         
     }
 
     //触ったオブジェクトのタグがカブだった時スペースを押すと、
@@ -36,13 +43,13 @@ public class PullUpAnimation : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("kabu"))
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) || (Input.GetKey(KeyCode.Joystick1Button1)))//キーボードとゲームパッドに対応
             {
                 p_animator.SetBool("PullUp", true);
                 p_animator.SetBool("Lift", true);
 
                 //animatorがtrueになったらFinishもtrueを入れる
-                Fnish = true;
+                Finish = true;
             }
         }
     }
