@@ -65,7 +65,7 @@ public class GatyaKabu : MonoBehaviour
 			Debug.Log("1st:" + prize[1].Count + " 2nd:" + prize[2].Count + " 3rd:" + prize[3].Count); // 等賞の残り数を表示
 		}
 
-		if (Input.GetKey(KeyCode.LeftControl)) // 左下のControlキーを押したら
+		if (Input.GetKeyDown(KeyCode.LeftControl)) // 左下のControlキーを押したら
 		{
 			if(bDebugMenu)
 			{
@@ -128,7 +128,7 @@ public class GatyaKabu : MonoBehaviour
 	}
 
 	// 表示用に確率をフォーマットするメソッド
-	string DisplayProbability(float probability)
+	public string DisplayProbability(float probability)
 	{
 		return probability.ToString("F2"); // 例: "5.00" と表示
 	}

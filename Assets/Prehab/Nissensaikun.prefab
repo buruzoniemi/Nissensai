@@ -1300,6 +1300,8 @@ GameObject:
   - component: {fileID: 6200261019903078571}
   - component: {fileID: 7729505524617971862}
   - component: {fileID: 1714735818710667426}
+  - component: {fileID: 4993729185498973250}
+  - component: {fileID: 8337621682434421901}
   m_Layer: 0
   m_Name: Nissensaikun
   m_TagString: Untagged
@@ -1422,6 +1424,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba3c405126a06440aa42bc2c98e15f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4993729185498973250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2981619423487062745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab436b5f9ba93a64eac064242504cb06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Finish: 0
+--- !u!114 &8337621682434421901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2981619423487062745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df0177676a0ea242ab81c6475f716bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconPrefab: {fileID: 5766095350684408496, guid: a30fee152d045864da3e4fc6dab2a351, type: 3}
+  targetTag: Kabu
 --- !u!1 &3072790151814451586
 GameObject:
   m_ObjectHideFlags: 0

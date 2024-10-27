@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\22cu0125\\Nissensai\\",
+  "WorkspaceRootPath": "C:\\School\\Nissensai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|c:\\school\\nissensai\\assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prizechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\gatyakabu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\tashirokun\\gachaprobabilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\gachaprobabilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\gachaprobabilitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\save.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\ratechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\ratechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ratechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|d:\\22cu0125\\nissensai\\assets\\script\\popupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\popupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\popupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|D:\\22cu0125\\Nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|C:\\School\\Nissensai\\assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21586E0-6BAA-2BB7-48B0-421545F82373}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tashirokun\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,60 +42,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "PopupManager.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PopupManager.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\PopupManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PopupManager.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PopupManager.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\PopupManager.cs",
               "RelativeToolTip": "Assets\\Script\\PopupManager.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAEwBAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:30:20.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:30:20.394Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GachaProbabilityController.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\GachaProbabilityController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:29:23.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:29:23.444Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GatyaKabu.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\GatyaKabu.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\GatyaKabu.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAqwEsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T01:35:55.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T01:35:55.36Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PrizeChoice.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PrizeChoice.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\PrizeChoice.cs",
               "RelativeToolTip": "Assets\\Script\\PrizeChoice.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAAUAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T01:02:07.415Z",
               "EditorCaption": ""
@@ -104,48 +97,45 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "RateChange.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\RateChange.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\RateChange.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\RateChange.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\RateChange.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\RateChange.cs",
               "RelativeToolTip": "Assets\\Script\\RateChange.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:02:22.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T01:02:22.391Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Save.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Save.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Save.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Save.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Save.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Save.cs",
               "RelativeToolTip": "Assets\\Script\\Save.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:26:38.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:26:38.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Reset.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Reset.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Reset.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Reset.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Reset.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Reset.cs",
               "RelativeToolTip": "Assets\\Script\\Reset.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:26:36.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:26:36.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "InputManager.cs",
-              "DocumentMoniker": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "DocumentMoniker": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Tashirokun\\InputManager.cs",
-              "ToolTip": "D:\\22cu0125\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
+              "ToolTip": "C:\\School\\Nissensai\\Assets\\Script\\Tashirokun\\InputManager.cs",
               "RelativeToolTip": "Assets\\Script\\Tashirokun\\InputManager.cs",
               "ViewState": "AQIAAG0AAAAAAAAAAAAWwIgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

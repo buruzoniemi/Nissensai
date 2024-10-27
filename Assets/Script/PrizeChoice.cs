@@ -25,6 +25,7 @@ public class PrizeChoice : MonoBehaviour
 
 		// 入力フィールドを表示
 		inputField.gameObject.SetActive(true);
+		EnterButton.gameObject.SetActive(true);
 		inputField.placeholder.GetComponent<Text>().text = "確率を入力"; // プレースホルダーの設定
 		inputField.text = ""; // 入力フィールドをクリア
 
@@ -41,10 +42,11 @@ public class PrizeChoice : MonoBehaviour
 		{
 			// 確率を設定
 			gatyaKabu.prob[prizeRank] = probability;
+			gatyaKabu.textbox.text = gatyaKabu.DisplayProbability(probability);
 			Debug.Log($"Rank: {prizeRank + 1}, Probability set to: {probability}%");
-
 			// 入力フィールドを非表示
 			inputField.gameObject.SetActive(false);
+			EnterButton.gameObject.SetActive(false);
 		}
 		else
 		{
