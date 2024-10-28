@@ -7,7 +7,7 @@ public class PlayerFollow : MonoBehaviour
 {
     [SerializeField] private Transform Player;          // 注視対象プレイヤー
 
-    private float Distance = 10.0f;     // 注視対象プレイヤーからカメラを離す距離
+    private float Distance = 15.0f;     // 注視対象プレイヤーからカメラを離す距離
     //private float TurnSpeed = 7.5f;     //回転速度
 
     //合成回転を行うためQuaternionで制御する

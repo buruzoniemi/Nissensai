@@ -51,6 +51,14 @@ public class PullUpAnimation : MonoBehaviour
                 //animator‚ªtrue‚É‚È‚Á‚½‚çFinish‚àtrue‚ð“ü‚ê‚é
                 Finish = true;
             }
+            else if (Input.GetKey(KeyCode.Joystick1Button1))
+            {
+                p_animator.SetBool("PullUp", true);
+                p_animator.SetBool("Lift", true);
+
+                //animator‚ªtrue‚É‚È‚Á‚½‚çFinish‚àtrue‚ð“ü‚ê‚é
+                Fnish = true;
+            }
         }
     }
 }
