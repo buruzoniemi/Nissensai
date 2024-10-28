@@ -31,6 +31,8 @@ public class ClockMove : MonoBehaviour
             RenderSettings.skybox = sky[0];
 
             Debug.Log("朝");
+
+            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Morning);    //BGM、朝
         }
 
         //TimeNumに入力された値に
@@ -54,6 +56,8 @@ public class ClockMove : MonoBehaviour
 
             MoningNight = false;
             Debug.Log("夜");
+
+            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Night);  //BGM、夜
         }
 
         if (gameObject.transform.localEulerAngles.z <= 0)
@@ -62,6 +66,8 @@ public class ClockMove : MonoBehaviour
 
             MoningNight = true;
             Debug.Log("朝");
+
+            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Morning);    //BGM、朝
         }
     }
 }
