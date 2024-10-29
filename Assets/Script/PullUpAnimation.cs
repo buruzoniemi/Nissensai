@@ -41,7 +41,7 @@ public class PullUpAnimation : MonoBehaviour
     //引っこ抜くアニメーションを再生させる関数
     private void OnTriggerStay(Collider collision)
     {
-        if (collision.gameObject.CompareTag("kabu"))
+        if (collision.gameObject.CompareTag("vegetable"))
         {
 
             if (Input.GetKey(KeyCode.Space) || (Input.GetKey(KeyCode.Joystick1Button1)))//キーボードとゲームパッドに対応

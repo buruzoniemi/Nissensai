@@ -401,6 +401,7 @@
 "Assets/Script/Tashirokun/GachaProbabilityController.cs"
 "Assets/Script/Tashirokun/GatyaKabu.cs"
 "Assets/Script/Tashirokun/InputManager.cs"
+"Assets/Script/Tashirokun/ObjectLifting.cs"
 "Assets/Script/Tashirokun/PlayerAnimation.cs"
 "Assets/Script/Tashirokun/PlayerMove.cs"
 "Assets/Script/Tashirokun/PlayerPickUp.cs"

@@ -25,7 +25,7 @@ public class ShowIconOnTrigger : MonoBehaviour
         if (other.CompareTag(targetTag))
         {
             iconInstance.SetActive(true);
-            iconInstance.transform.position = transform.position + Vector3.up * 2.0f; // 頭上にアイコンを配置
+            iconInstance.transform.position = transform.position + Vector3.up * 4.0f; // 頭上にアイコンを配置
         }
     }
 

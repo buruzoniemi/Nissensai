@@ -14,9 +14,12 @@ public class Reset : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("0"))
+        if(Input.GetKeyDown("KeyCode.LeftControl"))
         {
-            SceneManager.LoadScene(0);
+            if(Input.GetKeyDown("0"))
+            {
+                SceneManager.LoadScene(0);
+            }
         }
     }
 }

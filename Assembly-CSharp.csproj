@@ -87,6 +87,7 @@
     <Compile Include="Assets\Script\Nisse_Audio.cs" />
     <Compile Include="Assets\Script\MainCamera.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\Script\Tashirokun\ObjectLifting.cs" />
     <Compile Include="Assets\Script\PopupManager.cs" />
     <Compile Include="Assets\Script\Tashirokun\ShowIconOnTrigger.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\AutoBlink.cs" />
