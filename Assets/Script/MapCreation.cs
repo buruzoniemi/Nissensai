@@ -6,7 +6,9 @@ public enum VegetableType
 {
     Empty,
     Carrot,
-    Onion
+    Onion,
+    potato,
+    Satumaimo
 }
 
 public class MapCreation : MonoBehaviour
@@ -19,6 +21,8 @@ public class MapCreation : MonoBehaviour
 
     [SerializeField] private float onionY = -0.82f;
     [SerializeField] private float carrotY = -1.37f;
+    [SerializeField] private float potatoY = -0.82f;
+    [SerializeField] private float satumaimoY = -1.37f;
 
     // ランダムな位置の変動の範囲
     [SerializeField] private Vector2 positionRandomRange = new Vector2(0.5f, 0.5f);
@@ -95,6 +99,16 @@ public class MapCreation : MonoBehaviour
                 {
                     basePosition.y = onionY;
                     TryPlaceVegetable(VegetableType.Onion, basePosition);
+                }
+                else if (map[i, j] == (int)VegetableType.potato)
+                {
+                    basePosition.y = potatoY;
+                    TryPlaceVegetable(VegetableType.potato, basePosition);
+                }
+                else if (map[i, j] == (int)VegetableType.Satumaimo)
+                {
+                    basePosition.y = satumaimoY;
+                    TryPlaceVegetable(VegetableType.Satumaimo, basePosition);
                 }
 
                 x += 2.5f;

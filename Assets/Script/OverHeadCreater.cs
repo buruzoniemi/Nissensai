@@ -32,7 +32,7 @@ public class OverHeadCreater : MonoBehaviour
     {
         Debug.Log(collision.gameObject.name); // ぶつかった相手の名前を取得
 
-        if (collision.gameObject.CompareTag("kabu"))//kabuTagのオブジェクトに触れている時の処理
+        if (collision.gameObject.CompareTag("vegetable"))//vegetableTagのオブジェクトに触れている時の処理
         {
             overHeadMsg.gameObject.SetActive(true);//KABUのUIを表示させる
 

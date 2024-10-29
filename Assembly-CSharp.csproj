@@ -109,7 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
-    <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
+    <None Include="Assets\Asset\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\Asset\UnityChan\Voice\unity-chan_voice_list.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
@@ -121,11 +121,11 @@
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
-    <None Include="Assets\SimpleLowPolyNature\Readme.txt" />
-    <None Include="Assets\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
-    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
+    <None Include="Assets\Asset\SimpleLowPolyNature\Readme.txt" />
+    <None Include="Assets\Asset\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
+    <None Include="Assets\Asset\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
-    <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+    <None Include="Assets\Asset\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
