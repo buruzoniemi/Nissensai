@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{63E31D61-6946-5952-E52D-CB328FA146A2}</ProjectGuid>
+    <ProjectGuid>{B21586E0-6BAA-2BB7-48B0-421545F82373}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,6 +55,7 @@
     <UnityVersion>2022.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -70,6 +71,7 @@
     <Compile Include="Assets\ExtinctionJudgment.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\Script\Tashirokun\GatyaKabu.cs" />
+    <Compile Include="Assets\Script\MovePlayer.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\SpringBone.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Script\Gacha.cs" />
@@ -107,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\Asset\UnityChan\Voice\unity-chan_voice_list.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
@@ -118,8 +121,11 @@
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\SimpleLowPolyNature\Readme.txt" />
+    <None Include="Assets\SimpleLowPolyNature\Shaders\SimpleWater.shader" />
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\Asset\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

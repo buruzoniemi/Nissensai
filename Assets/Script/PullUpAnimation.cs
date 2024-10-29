@@ -83,7 +83,7 @@ public class PullUpAnimation : MonoBehaviour
                 p_animator.SetBool("Lift", true);
 
                 //animator‚ªtrue‚É‚È‚Á‚½‚çFinish‚àtrue‚ð“ü‚ê‚é
-                Fnish = true;
+                Finish = true;
             }
         }
     }

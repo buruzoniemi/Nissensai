@@ -11,7 +11,7 @@ public class ClockMove : MonoBehaviour
     public GameObject particleObject;   //transform.RotateのZ座標を取得するためのもの
 
     public Material[] sky;
-    int num = 0;
+    int num = 0; 
 
 
     void Start()
@@ -28,11 +28,7 @@ public class ClockMove : MonoBehaviour
         //フラグが朝の状態のことを1度だけ表示
         if (MoningNight == true)
         {
-            RenderSettings.skybox = sky[0];
-
             Debug.Log("朝");
-
-            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Morning);    //BGM、朝
         }
 
         //TimeNumに入力された値に
@@ -50,24 +46,22 @@ public class ClockMove : MonoBehaviour
         //Z座標（Rotation）が0～-180の間はtrue(朝)、１～180の間はfalse（夜）
         if (gameObject.transform.localEulerAngles.z <= 180 && MoningNight == true && gameObject.transform.localEulerAngles.z != 0)
         {
-            
-            RenderSettings.skybox = sky[0];
+
+            num = 1;
 
 
             MoningNight = false;
             Debug.Log("夜");
-
-            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Night);  //BGM、夜
         }
 
         if (gameObject.transform.localEulerAngles.z <= 0)
         {
-            RenderSettings.skybox = sky[1];
+            num = 0;
 
             MoningNight = true;
             Debug.Log("朝");
-
-            SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Morning);    //BGM、朝
         }
+
+        RenderSettings.skybox = sky[num];
     }
 }

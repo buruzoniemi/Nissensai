@@ -961,6 +961,8 @@ GameObject:
   - component: {fileID: 870915325}
   - component: {fileID: 870915324}
   - component: {fileID: 870915323}
+  - component: {fileID: 870915328}
+  - component: {fileID: 870915327}
   m_Layer: 0
   m_Name: Cube
   m_TagString: kabu
@@ -1054,6 +1056,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &870915327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870915322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f855a7c4f9cce5647b02eddf58f82574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prob: []
+  textbox: {fileID: 0}
+  timelineAsset: []
+--- !u!114 &870915328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870915322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618908584841bcb429c5e118047d259f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vegetablePrefab: []
+  onionY: -0.82
+  carrotY: -1.37
+  positionRandomRange: {x: 0.5, y: 0.5}
+  minDistanceBetweenVegetables: 1
 --- !u!1 &874724849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,9 +3133,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2109419677}
+  - {fileID: 870915326}
   - {fileID: 1666433619}
   - {fileID: 722059331}
   - {fileID: 1860843844}
   - {fileID: 324907835}
   - {fileID: 1430435297}
-  - {fileID: 870915326}

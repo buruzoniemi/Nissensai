@@ -385,6 +385,7 @@
 "Assets/Script/Gacha.cs"
 "Assets/Script/MainCamera.cs"
 "Assets/Script/MapCreation.cs"
+"Assets/Script/MovePlayer.cs"
 "Assets/Script/Nisse_Audio.cs"
 "Assets/Script/OverHeadCreater.cs"
 "Assets/Script/OverHeadMsg.cs"
