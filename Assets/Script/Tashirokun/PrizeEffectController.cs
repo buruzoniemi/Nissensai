@@ -1,69 +1,38 @@
 using UnityEngine;
-using Cinemachine;
 
 public class PrizeEffectController : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem[] prizeEffects;       // 各等級のパーティクルエフェクト
-    [SerializeField] private CinemachineVirtualCamera[] prizeCameras; // 各等級のカメラ
-    [SerializeField] private AudioClip[] prizeSounds;             // 各等級のサウンド
-    [SerializeField] private AudioSource audioSource;             // サウンド再生用のオーディオソース
+    [SerializeField] private ParticleSystem[] prizeEffectPrefabs;  // 各等級のパーティクルエフェクトのプレハブ
+    [SerializeField] private Transform handPosition;               // エフェクトの開始位置 (プレイヤーの手)
 
     // 引っこ抜かれた時の演出を開始するメソッド
     public void PlayPrizeEffect(int prizeRank)
     {
-        // 引数のprizeRankを1～4の範囲内に制限
         if (prizeRank < 1 || prizeRank > 4)
         {
             Debug.LogWarning("prizeRankは1から4の範囲で指定してください。");
             return;
         }
 
-        // エフェクトを再生
-        PlayParticleEffect(prizeRank);
-
-        // カメラを設定
-        SetCamera(prizeRank);
-
-        // サウンドを再生
-        PlaySound(prizeRank);
+        // パーティクルエフェクトを生成して再生
+        SpawnAndPlayParticleEffect(prizeRank);
     }
 
-    // パーティクルエフェクトの再生メソッド
-    private void PlayParticleEffect(int prizeRank)
+    // パーティクルエフェクトの生成と再生メソッド
+    private void SpawnAndPlayParticleEffect(int prizeRank)
     {
-        if (prizeEffects[prizeRank - 1] != null)
+        if (prizeEffectPrefabs[prizeRank - 1] != null)
         {
-            prizeEffects[prizeRank - 1].Play();
+            // パーティクルエフェクトのプレハブを手の位置に生成
+            ParticleSystem effectInstance = Instantiate(prizeEffectPrefabs[prizeRank - 1], handPosition.position, Quaternion.identity);
+            effectInstance.Play();
+
+            // エフェクトの終了後、自動的に破棄
+            Destroy(effectInstance.gameObject, effectInstance.main.duration);
         }
         else
         {
             Debug.LogWarning("指定された等級のパーティクルエフェクトが設定されていません。");
-        }
-    }
-
-    // カメラ設定メソッド
-    private void SetCamera(int prizeRank)
-    {
-        for (int i = 0; i < prizeCameras.Length; i++)
-        {
-            if (prizeCameras[i] != null)
-            {
-                prizeCameras[i].enabled = (i == prizeRank - 1);
-            }
-        }
-    }
-
-    // サウンド再生メソッド
-    private void PlaySound(int prizeRank)
-    {
-        if (prizeSounds[prizeRank - 1] != null && audioSource != null)
-        {
-            audioSource.clip = prizeSounds[prizeRank - 1];
-            audioSource.Play();
-        }
-        else
-        {
-            Debug.LogWarning("指定された等級のサウンドが設定されていないか、AudioSourceが設定されていません。");
         }
     }
 }

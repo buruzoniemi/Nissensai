@@ -1,6 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Net;
 using UnityEngine;
 
 public class PullUpAnimation : MonoBehaviour
@@ -10,6 +8,8 @@ public class PullUpAnimation : MonoBehaviour
     private ObjectLifting objectLifting;
     private bool finish = false; // アニメーションを行ったかどうかのフラグ
     private int prizeRank = 4; // デフォルトは4等
+
+    [SerializeField] private PrizeEffectController prizeEffectController; // PrizeEffectControllerの参照を追加
 
     void Start()
     {
@@ -34,15 +34,13 @@ public class PullUpAnimation : MonoBehaviour
                 {
                     objectLifting.StartHolding();
                     playerMove.RunStop();
-                    StartAnimationSequence();
                 }
             }
         }
     }
 
-    private void StartAnimationSequence()
+    public void StartAnimationSequence()  // メソッドをpublicに
     {
-        // プレイヤーを正面 (y = 180) に向ける
         transform.eulerAngles = new Vector3(0, 180, 0);
 
         p_animator.SetBool("PullUp", true);
@@ -52,21 +50,27 @@ public class PullUpAnimation : MonoBehaviour
         SoundManager.Instance.PlaySE(SESoundData.SE.PullUp);
         SoundManager.Instance.PlaySE(SESoundData.SE.Drumroll);
 
-        // 等数に応じてSEを再生
+        prizeEffectController.PlayPrizeEffect(prizeRank);
+        Debug.Log($"{prizeRank}");
+
         switch (prizeRank)
         {
             case 1:
                 SoundManager.Instance.PlaySE(SESoundData.SE.Get1);
                 SoundManager.Instance.PlaySE(SESoundData.SE.Hakusyu);
+                Debug.Log("1等Sound");
                 break;
             case 2:
                 SoundManager.Instance.PlaySE(SESoundData.SE.Get2);
+                Debug.Log("2等");
                 break;
             case 3:
                 SoundManager.Instance.PlaySE(SESoundData.SE.Get3);
+                Debug.Log("3等");
                 break;
             default:
                 SoundManager.Instance.PlaySE(SESoundData.SE.Get4);
+                Debug.Log("4等");
                 break;
         }
 

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638656443192275442
-    m_Hash: 1877660947
+      ticks: 638658647434302366
+    m_Hash: 2255807425
   m_LockFileStatus:
     m_FilePath: C:/School/Nissensai/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638656443192320539
-    m_Hash: 3383348456
+      ticks: 638658647434312855
+    m_Hash: 2558530850
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

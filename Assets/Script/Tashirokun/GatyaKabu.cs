@@ -64,6 +64,10 @@ public class GatyaKabu : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(prob[0]);
+        Debug.Log(prob[1]);
+        Debug.Log(prob[2]);
+
         textbox.text = "各等賞の確率：1等 = " + DisplayProbability(prob[0]) + "%, 2等 = " + DisplayProbability(prob[1]) + "%, 3等 = " + DisplayProbability(prob[2]) + "%";
         canvas.SetActive(false);
     }
@@ -103,46 +107,41 @@ public class GatyaKabu : MonoBehaviour
     }
 
     // ガチャを実行する処理
-    void RunGacha()
+    private void RunGacha()
     {
-        float chance = Random.Range(0f, 100f); // 0.0 から 100.0 の間のランダムな値を生成
-        float cumulativeProbability = 0f; // 累積確率
-        int prizeRank = 4; // デフォルトは4等
-        //Debug.Log("ガチャしたよ");
-        cameraZoomController.StartZoomIn(this.transform, 1f, 2f); // ズームイン: 1秒, 待機: 2秒
+        float chance = Random.Range(0f, 100f);
+        float cumulativeProbability = 0f;
+        int prizeRank = 4;
 
-        // 1等賞の抽選
+        cameraZoomController.StartZoomIn(this.transform, 1f, 2f);
+
         if (chance < (cumulativeProbability += ConvertToPercentage(prob[0])) && prize[1].Count > 0)
         {
-            //PlayTimeline(GatyaNum.firstRank); // Timelineの再生
-            GivePrize(1); // 1等賞の賞品を渡す
+            GivePrize(1);
             prizeRank = 1;
             Debug.Log("1等");
         }
-        // 2等賞の抽選
         else if (chance < (cumulativeProbability += ConvertToPercentage(prob[1])) && prize[2].Count > 0)
         {
-            //PlayTimeline(GatyaNum.secondRank); // Timelineの再生
-            GivePrize(2); // 2等賞の賞品を渡す
+            GivePrize(2);
             prizeRank = 2;
             Debug.Log("2等");
         }
-        // 3等賞の抽選
         else if (chance < (cumulativeProbability += ConvertToPercentage(prob[2])) && prize[3].Count > 0)
         {
-            //PlayTimeline(GatyaNum.thirdRank); // Timelineの再生
-            GivePrize(3); // 3等賞の賞品を渡す
+            GivePrize(3);
             prizeRank = 3;
             Debug.Log("3等");
         }
         else
         {
-            //PlayTimeline(GatyaNum.forthRank); // Timelineの再生
             Debug.Log("4等（参加賞）");
         }
 
-        // PullUpAnimationのインスタンスに等数を通知
-        GetComponent<PullUpAnimation>().SetPrizeRank(prizeRank);
+        // PullUpAnimationのインスタンスに等数を通知し、アニメーションをスタート
+        PullUpAnimation pullUpAnimation = GetComponent<PullUpAnimation>();
+        pullUpAnimation.SetPrizeRank(prizeRank);
+        pullUpAnimation.StartAnimationSequence();  // アニメーションシーケンスを直接呼び出す
     }
 
     // 確率をパーセンテージに変換する処理

@@ -1365,7 +1365,6 @@ GameObject:
   - component: {fileID: 1781173997}
   - component: {fileID: 1781173996}
   - component: {fileID: 1781173995}
-  - component: {fileID: 1781173994}
   - component: {fileID: 1781173993}
   m_Layer: 0
   m_Name: MapCreater
@@ -1386,30 +1385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3749b5a0c3b4afe4690370c8740d8efb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1781173994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781173992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f855a7c4f9cce5647b02eddf58f82574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prob:
-  - 0
-  - 0
-  - 0
-  - 0
-  textbox: {fileID: 0}
-  timelineAsset:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  mainCamera: {fileID: 0}
 --- !u!114 &1781173995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,6 +1507,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1939415329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4807468067135107029, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
+  m_PrefabInstance: {fileID: 3176025887134527949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!82 &1986935935 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 72820910315440247, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
@@ -1542,6 +1522,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5331239485741954415, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
   m_PrefabInstance: {fileID: 3176025887134527949}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1986935969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939415329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ecabe787da319e45b7890f8de35f423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prizeEffectPrefabs:
+  - {fileID: 6598367877141021636, guid: 7db61ead462705e438a2fc3ad5ab6ebe, type: 3}
+  - {fileID: 6598367877141021636, guid: ea595d53c29c1dd4e85e87f831a82820, type: 3}
+  - {fileID: 6598367877141021636, guid: 31fc3794b5a1010418cc3fa0975dc362, type: 3}
+  - {fileID: 6598367877141021636, guid: 004b6b06b2419d441939bf57861878c9, type: 3}
+  handPosition: {fileID: 458920684}
 --- !u!1001 &3176025887134527949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1590,6 +1588,10 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3800048835541240728, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
+      propertyPath: prizeEffectController
+      value: 
+      objectReference: {fileID: 1986935969}
     - target: {fileID: 4807468067135107029, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
       propertyPath: m_Name
       value: Nissennsaikun
@@ -1673,7 +1675,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4807468067135107029, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1986935969}
   m_SourcePrefab: {fileID: 100100000, guid: 6ba595e99ab37a04f997efca5cd58e40, type: 3}
 --- !u!1001 &5848706990902977301
 PrefabInstance:
