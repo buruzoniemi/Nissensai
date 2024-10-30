@@ -130,6 +130,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aaf03793376f314418ebc1ab8fc794e3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9046232562352731892}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aaf03793376f314418ebc1ab8fc794e3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2841703504067461277}
   m_SourcePrefab: {fileID: 100100000, guid: aaf03793376f314418ebc1ab8fc794e3, type: 3}
 --- !u!4 &2340516558581166937 stripped
 Transform:
@@ -383,6 +386,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab436b5f9ba93a64eac064242504cb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prizeEffectController: {fileID: 0}
+  prizeImages: []
+  fadeDuration: 1
 --- !u!54 &3673264608048979297
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -442,3 +448,21 @@ MonoBehaviour:
   textbox: {fileID: 0}
   timelineAsset: []
   mainCamera: {fileID: 0}
+--- !u!114 &2841703504067461277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807468067135107029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ecabe787da319e45b7890f8de35f423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prizeEffectPrefabs:
+  - {fileID: 6598367877141021636, guid: 7db61ead462705e438a2fc3ad5ab6ebe, type: 3}
+  - {fileID: 6598367877141021636, guid: ea595d53c29c1dd4e85e87f831a82820, type: 3}
+  - {fileID: 6598367877141021636, guid: 31fc3794b5a1010418cc3fa0975dc362, type: 3}
+  - {fileID: 6598367877141021636, guid: 004b6b06b2419d441939bf57861878c9, type: 3}
+  handPosition: {fileID: 1097040230292468437}
