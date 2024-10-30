@@ -68,8 +68,8 @@
     <Compile Include="Assets\Script\PullUpAnimation.cs" />
     <Compile Include="Assets\Nissennsaikun\TestWalkAnim.cs" />
     <Compile Include="Assets\Script\PrizeChoice.cs" />
-    <Compile Include="Assets\ExtinctionJudgment.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\Script\Tashirokun\CameraZoomcontroller.cs" />
     <Compile Include="Assets\Script\Tashirokun\GatyaKabu.cs" />
     <Compile Include="Assets\Script\MovePlayer.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\SpringBone.cs" />
@@ -104,7 +104,6 @@
     <Compile Include="Assets\Script\Reset.cs" />
     <Compile Include="Assets\Script\Tashirokun\GachaProbabilityController.cs" />
     <Compile Include="Assets\Script\Tashirokun\InputManager.cs" />
-    <Compile Include="Assets\MyScriptt.cs" />
     <Compile Include="Assets\Asset\UnityChan\Scripts\RandomWind.cs" />
     <Compile Include="Assets\Script\Save.cs" />
   </ItemGroup>

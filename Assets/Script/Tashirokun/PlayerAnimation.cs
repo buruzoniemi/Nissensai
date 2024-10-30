@@ -19,7 +19,7 @@ public class PlayerAnimation : MonoBehaviour
 		}
 	}
 
-	private Animator anim = null; //アニメ―ション
+	protected Animator anim = null; //アニメ―ション
 	private AnimName animName; //構造体の宣言
 
 	void Start()

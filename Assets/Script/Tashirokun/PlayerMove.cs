@@ -18,16 +18,20 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody rigidbody;
     private PlayerRotation playerRotation;  // PlayerRotation クラスのインスタンス
     private PlayerAnimation playerAnimation;
+    private Animator animator;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
         playerAnimation = GetComponent<PlayerAnimation>();
         playerRotation = GetComponent<PlayerRotation>();  // PlayerRotation クラスを取得
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
+        //持ち上げてる状態の時動かないようにする
+        if (animator.GetBool("PullUp") || animator.GetBool("Lift")) return;
         // 入力による移動方向の更新
         Move(m_pMove_X, m_pMove_Y, m_pMove_Z);
         // 加速度による移動処理
@@ -150,5 +154,11 @@ public class PlayerMove : MonoBehaviour
 
         // 回転処理をPlayerRotationクラスに委譲
         playerRotation.RotatePlayer(currentVelocity);
+    }
+
+    public void RunStop()
+    {
+        currentVelocity = Vector3.zero;
+        playerAnimation.StopRunAnim();
     }
 }

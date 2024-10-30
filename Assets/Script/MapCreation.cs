@@ -38,6 +38,7 @@ public class MapCreation : MonoBehaviour
         map = new int[6, 6]; // マップの初期化
         randomCount = 0;
         randomTerms = 0;
+        GenerateMap();
     }
 
     void Update()
@@ -60,7 +61,7 @@ public class MapCreation : MonoBehaviour
         int generationAttempts = 0;
 
         while (!MapGenerate(randomPattern)) generationAttempts++;
-        Debug.Log("Generation attempts: " + generationAttempts);
+        //Debug.Log("Generation attempts: " + generationAttempts);
 
         // マップに基づきオブジェクトを生成
         InstantiateVegetablesFromMap();
@@ -119,7 +120,7 @@ public class MapCreation : MonoBehaviour
             x = -6;
         }
 
-        Debug.Log(mapLog);
+        //Debug.Log(mapLog);
     }
 
     // 指定された野菜を配置する試みを行う

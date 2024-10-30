@@ -23,12 +23,12 @@ public class ClockMove : MonoBehaviour
         Application.targetFrameRate = 60;
 
         //現在の時計が何分設定なのかをデバッグログに表示させる
-        Debug.Log(TimeNum + "分で１周する時計");
+        //Debug.Log(TimeNum + "分で１周する時計");
 
         //フラグが朝の状態のことを1度だけ表示
         if (MoningNight == true)
         {
-            Debug.Log("朝");
+            //Debug.Log("朝");
         }
 
         //TimeNumに入力された値に
@@ -51,7 +51,7 @@ public class ClockMove : MonoBehaviour
 
 
             MoningNight = false;
-            Debug.Log("夜");
+            //Debug.Log("夜");
         }
 
         if (gameObject.transform.localEulerAngles.z <= 0)
@@ -59,7 +59,7 @@ public class ClockMove : MonoBehaviour
             num = 0;
 
             MoningNight = true;
-            Debug.Log("朝");
+            //Debug.Log("朝");
         }
 
         RenderSettings.skybox = sky[num];
